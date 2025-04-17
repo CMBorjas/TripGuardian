@@ -1,1 +1,22 @@
 /data/google_transit
+
+# Python virtual environment
+venv/
+
+# Python cache and logs
+__pycache__/
+*.py[cod]
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS/System files
+.DS_Store
+Thumbs.db
+
+# Streamlit config
+.streamlit/
+
+# Environment files (optional)
+*.env
