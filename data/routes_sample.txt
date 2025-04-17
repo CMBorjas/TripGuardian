@@ -1,0 +1,11 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color,network_id
+0,RTD,0,Broadway,This Route Travels Northbound & Southbound,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF,standard_fare_network
+0B,RTD,0B,South Broadway,This Route Travels Northbound & Southbound,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF,standard_fare_network
+0L,RTD,0L,South Broadway Limited,This Route Travels Northbound & Southbound,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF,standard_fare_network
+1,RTD,1,West 1st Avenue,This Route Travels Eastbound & Westbound,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF,standard_fare_network
+10,RTD,10,East 12th Avenue,This Route Travels Eastbound & Westbound,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF,standard_fare_network
+100,RTD,100,Kipling Street,This Route Travels Northbound & Southbound,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF,standard_fare_network
+101D,RTD,D,18th & California to Littleton-Mineral Station,This Route Travels Northbound & Southbound,0,http://www.rtd-denver.com/Schedules.shtml,008348,FFFFFF,standard_fare_network
+101E,RTD,E,Union Station to RidgeGate Parkway Station,This Route Travels Northbound & Southbound,0,http://www.rtd-denver.com/Schedules.shtml,552683,FFFFFF,standard_fare_network
+101H,RTD,H,18th & California to Florida,This Route Travels Northbound & Southbound,0,http://www.rtd-denver.com/Schedules.shtml,0075BE,FFFFFF,standard_fare_network
+103W,RTD,W,Union Station to Jefferson County Government Center-Golden Station,This Route Travels Eastbound & Westbound,0,http://www.rtd-denver.com/Schedules.shtml,009DAA,FFFFFF,standard_fare_network
