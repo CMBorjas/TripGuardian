@@ -1,0 +1,8 @@
+route_id,hour_of_day,day_of_week,crowdedness
+15L,7,Monday,High
+15L,17,Monday,High
+1,9,Tuesday,Medium
+0,14,Wednesday,Low
+15L,18,Friday,Medium
+1,8,Monday,Medium
+0,20,Sunday,Low
