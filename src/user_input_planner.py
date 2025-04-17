@@ -1,3 +1,6 @@
+import os
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import pandas as pd
 from datetime import datetime
 from src.route_finder import find_routes
@@ -7,7 +10,7 @@ from src.summarizer import generate_trip_summary
 from src.accessibility_score import compute_accessibility_score
 
 
-def plan_trip(user_start, user_end, departure_time, route_graph, weather="Clear"):
+def plan_trip(user_start, user_end, departure_time, route_graph, weather="Clear", user_is_disabled=False):
     """
     Inputs:
         user_start: string stop name
@@ -32,6 +35,7 @@ def plan_trip(user_start, user_end, departure_time, route_graph, weather="Clear"
         route["weather"] = weather
         route["walk_time"] = 5  # Placeholder — could be dynamic
         route["delay_minutes"] = 3  # Placeholder — could be live from alerts
+        route["user_is_disabled"] = user_is_disabled
         route["safety_score"] = compute_accessibility_score(route)
         route["stop_name_start"] = user_start
         route["stop_name_end"] = user_end
