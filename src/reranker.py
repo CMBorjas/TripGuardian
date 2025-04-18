@@ -11,6 +11,7 @@ def rerank_routes(df):
         + df["delay_minutes"] * 2
         + df["crowdedness_score"] * 1.2
         + (100 - df["safety_score"]))
+        + df.get("alert_penalty",0)
     )
     df = df.sort_values("total_score", ascending=False)
     return df
