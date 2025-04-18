@@ -1,0 +1,4490 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3df9f7a18cd05804433623545f2c448a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3df9f7a18cd05804433623545f2c448a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3df9f7a18cd05804433623545f2c448a = L.map(
+                "map_3df9f7a18cd05804433623545f2c448a",
+                {
+                    center: [39.735, -104.97],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5adf358dc52aac4e310e868fa44694a1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_5adf358dc52aac4e310e868fa44694a1.addTo(map_3df9f7a18cd05804433623545f2c448a);
+        
+    
+            var marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_71cc45d61b2e7246ec4eae7ff535d84b = L.marker(
+                [39.736056, -104.966469],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_6bca735d588ed8f6aace6eacb2be603a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9df3d29271effc3a1652b77a97c3e5b8 = $(`<div id="html_9df3d29271effc3a1652b77a97c3e5b8" style="width: 100.0%; height: 100.0%;">12th Ave & Gilpin St</div>`)[0];
+                popup_6bca735d588ed8f6aace6eacb2be603a.setContent(html_9df3d29271effc3a1652b77a97c3e5b8);
+            
+        
+
+        marker_71cc45d61b2e7246ec4eae7ff535d84b.bindPopup(popup_6bca735d588ed8f6aace6eacb2be603a)
+        ;
+
+        
+    
+    
+            var marker_7b13e646f7586946450c734621f9961f = L.marker(
+                [39.729114, -104.982724],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_5453f2db0b82a17fc7a5e57638d7c2f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6fa6d207587295d109d39cd340b4fa19 = $(`<div id="html_6fa6d207587295d109d39cd340b4fa19" style="width: 100.0%; height: 100.0%;">8th Ave & Logan St</div>`)[0];
+                popup_5453f2db0b82a17fc7a5e57638d7c2f3.setContent(html_6fa6d207587295d109d39cd340b4fa19);
+            
+        
+
+        marker_7b13e646f7586946450c734621f9961f.bindPopup(popup_5453f2db0b82a17fc7a5e57638d7c2f3)
+        ;
+
+        
+    
+    
+            var marker_fe8f44473bb8926a0775a37494d2be8e = L.marker(
+                [39.722254, -104.959509],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_33e94f52a12134b7eda824aeb152c061 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34341a6819caad75a57875d74b146cc7 = $(`<div id="html_34341a6819caad75a57875d74b146cc7" style="width: 100.0%; height: 100.0%;">University Blvd & 4th Ave</div>`)[0];
+                popup_33e94f52a12134b7eda824aeb152c061.setContent(html_34341a6819caad75a57875d74b146cc7);
+            
+        
+
+        marker_fe8f44473bb8926a0775a37494d2be8e.bindPopup(popup_33e94f52a12134b7eda824aeb152c061)
+        ;
+
+        
+    
+    
+            var marker_14a46944ef496b69fd2b863604aafb5a = L.marker(
+                [39.745104, -104.973487],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_b4e11b8c2b9cfb76f99b567ee5e5f5ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f10e44b2010f4ffd54c4410cfda1ae0d = $(`<div id="html_f10e44b2010f4ffd54c4410cfda1ae0d" style="width: 100.0%; height: 100.0%;">Downing St & 18th Ave</div>`)[0];
+                popup_b4e11b8c2b9cfb76f99b567ee5e5f5ef.setContent(html_f10e44b2010f4ffd54c4410cfda1ae0d);
+            
+        
+
+        marker_14a46944ef496b69fd2b863604aafb5a.bindPopup(popup_b4e11b8c2b9cfb76f99b567ee5e5f5ef)
+        ;
+
+        
+    
+    
+            var marker_56ea77b0eb3acd1f520438a6e6524a4b = L.marker(
+                [39.73991, -104.966318],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_abccfedb5b8fce5188905148422e4dcc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6f1119c16bf6ef5cab8189e9c58de0c = $(`<div id="html_a6f1119c16bf6ef5cab8189e9c58de0c" style="width: 100.0%; height: 100.0%;">Colfax & Williams Temp Stop</div>`)[0];
+                popup_abccfedb5b8fce5188905148422e4dcc.setContent(html_a6f1119c16bf6ef5cab8189e9c58de0c);
+            
+        
+
+        marker_56ea77b0eb3acd1f520438a6e6524a4b.bindPopup(popup_abccfedb5b8fce5188905148422e4dcc)
+        ;
+
+        
+    
+    
+            var marker_84dd2c16778897883ba7c206059ce27d = L.marker(
+                [39.729142, -104.965155],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_6ae5899e4241527e62fabab267d9425d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1200ca26147f393736b1c59bc51c479f = $(`<div id="html_1200ca26147f393736b1c59bc51c479f" style="width: 100.0%; height: 100.0%;">8th Ave & High St</div>`)[0];
+                popup_6ae5899e4241527e62fabab267d9425d.setContent(html_1200ca26147f393736b1c59bc51c479f);
+            
+        
+
+        marker_84dd2c16778897883ba7c206059ce27d.bindPopup(popup_6ae5899e4241527e62fabab267d9425d)
+        ;
+
+        
+    
+    
+            var marker_e8dc66091eff07e41b1af36268f3de42 = L.marker(
+                [39.749701, -104.986444],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_a5c0dc93369caa17b7b8f53f1eb3b393 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0d6cf6a1f3ebea1a00db9be1d020f1b = $(`<div id="html_b0d6cf6a1f3ebea1a00db9be1d020f1b" style="width: 100.0%; height: 100.0%;">California St & 21st St</div>`)[0];
+                popup_a5c0dc93369caa17b7b8f53f1eb3b393.setContent(html_b0d6cf6a1f3ebea1a00db9be1d020f1b);
+            
+        
+
+        marker_e8dc66091eff07e41b1af36268f3de42.bindPopup(popup_a5c0dc93369caa17b7b8f53f1eb3b393)
+        ;
+
+        
+    
+    
+            var marker_4b6577f4965de9598ec4b8e2bf2d615a = L.marker(
+                [39.740936, -104.95899],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_040e7503e57a033390cd736779e76da7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f4734c287f8364e84335fa9fc9e0427 = $(`<div id="html_3f4734c287f8364e84335fa9fc9e0427" style="width: 100.0%; height: 100.0%;">Josephine St & Colfax Ave</div>`)[0];
+                popup_040e7503e57a033390cd736779e76da7.setContent(html_3f4734c287f8364e84335fa9fc9e0427);
+            
+        
+
+        marker_4b6577f4965de9598ec4b8e2bf2d615a.bindPopup(popup_040e7503e57a033390cd736779e76da7)
+        ;
+
+        
+    
+    
+            var marker_d6912be76b2e5d437ad7ec20455c86b2 = L.marker(
+                [39.730712, -104.986039],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_540d58a11889d4d0c07dfb63b6f058a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac0b2cf6dd641fa58eb3c9ec10e43e86 = $(`<div id="html_ac0b2cf6dd641fa58eb3c9ec10e43e86" style="width: 100.0%; height: 100.0%;">Lincoln St & 9th Ave</div>`)[0];
+                popup_540d58a11889d4d0c07dfb63b6f058a0.setContent(html_ac0b2cf6dd641fa58eb3c9ec10e43e86);
+            
+        
+
+        marker_d6912be76b2e5d437ad7ec20455c86b2.bindPopup(popup_540d58a11889d4d0c07dfb63b6f058a0)
+        ;
+
+        
+    
+    
+            var marker_920588379a4eb04c4ccbadf094ff0b9a = L.marker(
+                [39.735078, -104.952621],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_8e85818d3b5a0a356a66e486648919cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a1c980934e09fa487bdb9efb383f6fb9 = $(`<div id="html_a1c980934e09fa487bdb9efb383f6fb9" style="width: 100.0%; height: 100.0%;">12th Ave & Fillmore St</div>`)[0];
+                popup_8e85818d3b5a0a356a66e486648919cd.setContent(html_a1c980934e09fa487bdb9efb383f6fb9);
+            
+        
+
+        marker_920588379a4eb04c4ccbadf094ff0b9a.bindPopup(popup_8e85818d3b5a0a356a66e486648919cd)
+        ;
+
+        
+    
+    
+            var marker_0767fd8fff2d5f71b4038b811602d97f = L.marker(
+                [39.740146, -104.959184],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_0e8d774eceb8bcfaf736611ffa61897a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4fee72982e31ee9d39eb1670fd23756a = $(`<div id="html_4fee72982e31ee9d39eb1670fd23756a" style="width: 100.0%; height: 100.0%;">Colfax Ave & Josephine St</div>`)[0];
+                popup_0e8d774eceb8bcfaf736611ffa61897a.setContent(html_4fee72982e31ee9d39eb1670fd23756a);
+            
+        
+
+        marker_0767fd8fff2d5f71b4038b811602d97f.bindPopup(popup_0e8d774eceb8bcfaf736611ffa61897a)
+        ;
+
+        
+    
+    
+            var marker_3a02160701938580ee83cb8f71b837e6 = L.marker(
+                [39.730699, -104.972903],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_c9fd512d348c3bef022c9533f9041148 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53383c1f7621f891e4f8f25df308ffba = $(`<div id="html_53383c1f7621f891e4f8f25df308ffba" style="width: 100.0%; height: 100.0%;">Downing St & 9th Ave</div>`)[0];
+                popup_c9fd512d348c3bef022c9533f9041148.setContent(html_53383c1f7621f891e4f8f25df308ffba);
+            
+        
+
+        marker_3a02160701938580ee83cb8f71b837e6.bindPopup(popup_c9fd512d348c3bef022c9533f9041148)
+        ;
+
+        
+    
+    
+            var marker_6016697c9328edb2540307ef9e7b2500 = L.marker(
+                [39.728825, -104.960254],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_83e6033dbf76f524ffbb64c60046e72a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6117464253b9daddaa34941da5c0c31 = $(`<div id="html_c6117464253b9daddaa34941da5c0c31" style="width: 100.0%; height: 100.0%;">York St & 8th Ave</div>`)[0];
+                popup_83e6033dbf76f524ffbb64c60046e72a.setContent(html_c6117464253b9daddaa34941da5c0c31);
+            
+        
+
+        marker_6016697c9328edb2540307ef9e7b2500.bindPopup(popup_83e6033dbf76f524ffbb64c60046e72a)
+        ;
+
+        
+    
+    
+            var marker_19dcc7c9072966ab22e71ddf6b3452ca = L.marker(
+                [39.740263, -104.989769],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_e899b75a46795d4080dd6345235815be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f046d6625a068f8c8f3e8cc116f5580e = $(`<div id="html_f046d6625a068f8c8f3e8cc116f5580e" style="width: 100.0%; height: 100.0%;">W Colfax Ave & 14th St</div>`)[0];
+                popup_e899b75a46795d4080dd6345235815be.setContent(html_f046d6625a068f8c8f3e8cc116f5580e);
+            
+        
+
+        marker_19dcc7c9072966ab22e71ddf6b3452ca.bindPopup(popup_e899b75a46795d4080dd6345235815be)
+        ;
+
+        
+    
+    
+            var marker_3f580802769ce260ee2b261898376dd2 = L.marker(
+                [39.740049, -104.975774],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_6a596fc14df9aa9f8f3cb8748a4ce025 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b59fd1096dcdd5d371ab67f0768734c8 = $(`<div id="html_b59fd1096dcdd5d371ab67f0768734c8" style="width: 100.0%; height: 100.0%;">Colfax Ave & Ogden St</div>`)[0];
+                popup_6a596fc14df9aa9f8f3cb8748a4ce025.setContent(html_b59fd1096dcdd5d371ab67f0768734c8);
+            
+        
+
+        marker_3f580802769ce260ee2b261898376dd2.bindPopup(popup_6a596fc14df9aa9f8f3cb8748a4ce025)
+        ;
+
+        
+    
+    
+            var marker_c1fc394b29326dd5cb7fff83a83d8876 = L.marker(
+                [39.7401, -104.956005],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_2007936b355fa6a3636298488d093504 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_009c8c901a2b6e7b2fed9719c56a100d = $(`<div id="html_009c8c901a2b6e7b2fed9719c56a100d" style="width: 100.0%; height: 100.0%;">Colfax Ave & Elizabeth St</div>`)[0];
+                popup_2007936b355fa6a3636298488d093504.setContent(html_009c8c901a2b6e7b2fed9719c56a100d);
+            
+        
+
+        marker_c1fc394b29326dd5cb7fff83a83d8876.bindPopup(popup_2007936b355fa6a3636298488d093504)
+        ;
+
+        
+    
+    
+            var marker_4c46d2e75cfed8a82aae0891deb4b3de = L.marker(
+                [39.735125, -104.968576],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_74dfe4d036eb6b7056bc3c96a4be3883 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9f9f974e8a1eeb62e7200fd33836989 = $(`<div id="html_f9f9f974e8a1eeb62e7200fd33836989" style="width: 100.0%; height: 100.0%;">12th Ave & Humboldt St</div>`)[0];
+                popup_74dfe4d036eb6b7056bc3c96a4be3883.setContent(html_f9f9f974e8a1eeb62e7200fd33836989);
+            
+        
+
+        marker_4c46d2e75cfed8a82aae0891deb4b3de.bindPopup(popup_74dfe4d036eb6b7056bc3c96a4be3883)
+        ;
+
+        
+    
+    
+            var marker_f9ca3489be8ff602cc443a4c75c5e1f6 = L.marker(
+                [39.735237, -104.97904],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_b7f3507abecac97f3766eb1d1710661f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02dee6dd25709e0418cf6f04ad33140b = $(`<div id="html_02dee6dd25709e0418cf6f04ad33140b" style="width: 100.0%; height: 100.0%;">12th Ave & Washington St</div>`)[0];
+                popup_b7f3507abecac97f3766eb1d1710661f.setContent(html_02dee6dd25709e0418cf6f04ad33140b);
+            
+        
+
+        marker_f9ca3489be8ff602cc443a4c75c5e1f6.bindPopup(popup_b7f3507abecac97f3766eb1d1710661f)
+        ;
+
+        
+    
+    
+            var marker_0afbc13e529157ed397607a59961be92 = L.marker(
+                [39.744846, -104.960352],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_a8e1dc76231d919260076a6d8a71abd9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a137cf2765c4e547d03f0ad2420e8fac = $(`<div id="html_a137cf2765c4e547d03f0ad2420e8fac" style="width: 100.0%; height: 100.0%;">18th Ave & York St</div>`)[0];
+                popup_a8e1dc76231d919260076a6d8a71abd9.setContent(html_a137cf2765c4e547d03f0ad2420e8fac);
+            
+        
+
+        marker_0afbc13e529157ed397607a59961be92.bindPopup(popup_a8e1dc76231d919260076a6d8a71abd9)
+        ;
+
+        
+    
+    
+            var marker_fd1916a978b3e9939c1f3c34f207076e = L.marker(
+                [39.748117, -104.988511],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_93a4fcdadc6b3a4e17b73d9d2292948a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8851fbad2299dd1436e047254b99d2cd = $(`<div id="html_8851fbad2299dd1436e047254b99d2cd" style="width: 100.0%; height: 100.0%;">California St & 19th St</div>`)[0];
+                popup_93a4fcdadc6b3a4e17b73d9d2292948a.setContent(html_8851fbad2299dd1436e047254b99d2cd);
+            
+        
+
+        marker_fd1916a978b3e9939c1f3c34f207076e.bindPopup(popup_93a4fcdadc6b3a4e17b73d9d2292948a)
+        ;
+
+        
+    
+    
+            var marker_6d07a7821f78fde706dbc48277b3dfc2 = L.marker(
+                [39.748812, -104.989084],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_678159ab9c486f0aa5ed26239a120986 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_656f42c9bb89529f3505d9946340516a = $(`<div id="html_656f42c9bb89529f3505d9946340516a" style="width: 100.0%; height: 100.0%;">Stout St & 19th St</div>`)[0];
+                popup_678159ab9c486f0aa5ed26239a120986.setContent(html_656f42c9bb89529f3505d9946340516a);
+            
+        
+
+        marker_6d07a7821f78fde706dbc48277b3dfc2.bindPopup(popup_678159ab9c486f0aa5ed26239a120986)
+        ;
+
+        
+    
+    
+            var marker_1bc0e93c14316ec05d3672ca6ccc763a = L.marker(
+                [39.748302, -104.977032],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_d7ac379775c8612f5cd51e6b8bf0b7c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e7dfaea9a371f24de70bfbfd02fdc42c = $(`<div id="html_e7dfaea9a371f24de70bfbfd02fdc42c" style="width: 100.0%; height: 100.0%;">Clarkson St & 20th Ave</div>`)[0];
+                popup_d7ac379775c8612f5cd51e6b8bf0b7c3.setContent(html_e7dfaea9a371f24de70bfbfd02fdc42c);
+            
+        
+
+        marker_1bc0e93c14316ec05d3672ca6ccc763a.bindPopup(popup_d7ac379775c8612f5cd51e6b8bf0b7c3)
+        ;
+
+        
+    
+    
+            var marker_e16be67fc58f4b1b0e16b2d1f7a0aa5b = L.marker(
+                [39.739975, -104.976034],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_8607eca01036e17e22abeed99c0fda45 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae7722b77e9038e4abe2461279139d49 = $(`<div id="html_ae7722b77e9038e4abe2461279139d49" style="width: 100.0%; height: 100.0%;">Colfax Ave & Emerson St</div>`)[0];
+                popup_8607eca01036e17e22abeed99c0fda45.setContent(html_ae7722b77e9038e4abe2461279139d49);
+            
+        
+
+        marker_e16be67fc58f4b1b0e16b2d1f7a0aa5b.bindPopup(popup_8607eca01036e17e22abeed99c0fda45)
+        ;
+
+        
+    
+    
+            var marker_ce69bafe74198ec2d705d71799e3089f = L.marker(
+                [39.746131, -104.986787],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_917678ad5cc54935344fca71c2bd8a74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_60bc2dd61594df8152ce68960724dc07 = $(`<div id="html_60bc2dd61594df8152ce68960724dc07" style="width: 100.0%; height: 100.0%;">19th Ave & Broadway</div>`)[0];
+                popup_917678ad5cc54935344fca71c2bd8a74.setContent(html_60bc2dd61594df8152ce68960724dc07);
+            
+        
+
+        marker_ce69bafe74198ec2d705d71799e3089f.bindPopup(popup_917678ad5cc54935344fca71c2bd8a74)
+        ;
+
+        
+    
+    
+            var marker_f55c878d9df360792099720e0f93c7fe = L.marker(
+                [39.735409, -104.97294],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_159ebb21c4d22316dbff5c4d2b557efd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_913213fa0f0ab3c97dae78783953e2bd = $(`<div id="html_913213fa0f0ab3c97dae78783953e2bd" style="width: 100.0%; height: 100.0%;">Downing St & 12th Ave</div>`)[0];
+                popup_159ebb21c4d22316dbff5c4d2b557efd.setContent(html_913213fa0f0ab3c97dae78783953e2bd);
+            
+        
+
+        marker_f55c878d9df360792099720e0f93c7fe.bindPopup(popup_159ebb21c4d22316dbff5c4d2b557efd)
+        ;
+
+        
+    
+    
+            var marker_a088ad7e768b51b95cb9acdee93fe748 = L.marker(
+                [39.740264, -104.950403],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_ced97b200c38d6c10c4ef42e7bc76708 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44b147319487e86ada862c700be2e759 = $(`<div id="html_44b147319487e86ada862c700be2e759" style="width: 100.0%; height: 100.0%;">Colfax Ave & Steele St</div>`)[0];
+                popup_ced97b200c38d6c10c4ef42e7bc76708.setContent(html_44b147319487e86ada862c700be2e759);
+            
+        
+
+        marker_a088ad7e768b51b95cb9acdee93fe748.bindPopup(popup_ced97b200c38d6c10c4ef42e7bc76708)
+        ;
+
+        
+    
+    
+            var marker_5b4ac6db9c68ffe036f255e13c8a3751 = L.marker(
+                [39.725531, -104.96612],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_ec66c3f28d2918a76fe91ff31546c8f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a382c593aea2cf01644b859853a8eb8c = $(`<div id="html_a382c593aea2cf01644b859853a8eb8c" style="width: 100.0%; height: 100.0%;">6th Ave & Williams St</div>`)[0];
+                popup_ec66c3f28d2918a76fe91ff31546c8f6.setContent(html_a382c593aea2cf01644b859853a8eb8c);
+            
+        
+
+        marker_5b4ac6db9c68ffe036f255e13c8a3751.bindPopup(popup_ec66c3f28d2918a76fe91ff31546c8f6)
+        ;
+
+        
+    
+    
+            var marker_a753a9e55e1b67c32977930f78b4ddb9 = L.marker(
+                [39.739975, -104.984252],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_6819ae4c67fc7d029fc4eb083611dbd0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82fce399ae6c15e05f196527512048a1 = $(`<div id="html_82fce399ae6c15e05f196527512048a1" style="width: 100.0%; height: 100.0%;">Colfax Ave & Sherman St</div>`)[0];
+                popup_6819ae4c67fc7d029fc4eb083611dbd0.setContent(html_82fce399ae6c15e05f196527512048a1);
+            
+        
+
+        marker_a753a9e55e1b67c32977930f78b4ddb9.bindPopup(popup_6819ae4c67fc7d029fc4eb083611dbd0)
+        ;
+
+        
+    
+    
+            var marker_24d4be1c17179839b87a36a820ab7a2a = L.marker(
+                [39.741392, -104.987192],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_40a6c3f2a62cbb5a1bf00becab3d657b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6fec0a3299440a98fcdc9c0b6ff57608 = $(`<div id="html_6fec0a3299440a98fcdc9c0b6ff57608" style="width: 100.0%; height: 100.0%;">Civic Center Mall Loop</div>`)[0];
+                popup_40a6c3f2a62cbb5a1bf00becab3d657b.setContent(html_6fec0a3299440a98fcdc9c0b6ff57608);
+            
+        
+
+        marker_24d4be1c17179839b87a36a820ab7a2a.bindPopup(popup_40a6c3f2a62cbb5a1bf00becab3d657b)
+        ;
+
+        
+    
+    
+            var marker_2ae378cbda6eb294e2577b526b18fcb0 = L.marker(
+                [39.740766, -104.98708],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_3bd4e89d2fba9524a9721ece88d3778f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c5150e905a48922c3943b6f63f9d0b78 = $(`<div id="html_c5150e905a48922c3943b6f63f9d0b78" style="width: 100.0%; height: 100.0%;">Civic Center Station Gate 6</div>`)[0];
+                popup_3bd4e89d2fba9524a9721ece88d3778f.setContent(html_c5150e905a48922c3943b6f63f9d0b78);
+            
+        
+
+        marker_2ae378cbda6eb294e2577b526b18fcb0.bindPopup(popup_3bd4e89d2fba9524a9721ece88d3778f)
+        ;
+
+        
+    
+    
+            var marker_3e3e4c28deb9f65e6ea250278d04733c = L.marker(
+                [39.743166, -104.968186],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_72e6e78758fd1c84227defe91d502e09 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f920ece630ec0b73e48ad9d12596ae6 = $(`<div id="html_9f920ece630ec0b73e48ad9d12596ae6" style="width: 100.0%; height: 100.0%;">17th Ave & Franklin St</div>`)[0];
+                popup_72e6e78758fd1c84227defe91d502e09.setContent(html_9f920ece630ec0b73e48ad9d12596ae6);
+            
+        
+
+        marker_3e3e4c28deb9f65e6ea250278d04733c.bindPopup(popup_72e6e78758fd1c84227defe91d502e09)
+        ;
+
+        
+    
+    
+            var marker_d9660c2c375f199c09dab4b2d8b970a6 = L.marker(
+                [39.729126, -104.969752],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_5efcd478ad0fedddab419143df3d3e92 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4a36e310d70599efb98781f9b87725c = $(`<div id="html_b4a36e310d70599efb98781f9b87725c" style="width: 100.0%; height: 100.0%;">8th Ave & Humboldt St</div>`)[0];
+                popup_5efcd478ad0fedddab419143df3d3e92.setContent(html_b4a36e310d70599efb98781f9b87725c);
+            
+        
+
+        marker_d9660c2c375f199c09dab4b2d8b970a6.bindPopup(popup_5efcd478ad0fedddab419143df3d3e92)
+        ;
+
+        
+    
+    
+            var marker_934bc15bcc5aad28fb83e60d6f137001 = L.marker(
+                [39.740091, -104.952698],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_0dbbbd1cad4e79415a058f4da07ec1f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_693bbc54b0474cec18b2da712029c286 = $(`<div id="html_693bbc54b0474cec18b2da712029c286" style="width: 100.0%; height: 100.0%;">Colfax Ave & Fillmore St</div>`)[0];
+                popup_0dbbbd1cad4e79415a058f4da07ec1f8.setContent(html_693bbc54b0474cec18b2da712029c286);
+            
+        
+
+        marker_934bc15bcc5aad28fb83e60d6f137001.bindPopup(popup_0dbbbd1cad4e79415a058f4da07ec1f8)
+        ;
+
+        
+    
+    
+            var marker_840dcc6761d36e6fed628360b25ba09a = L.marker(
+                [39.749215, -104.973418],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_7b7f77891ad3d13cd78ac926fac96092 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_861b73b4eeadbeac8111b749e62c10a1 = $(`<div id="html_861b73b4eeadbeac8111b749e62c10a1" style="width: 100.0%; height: 100.0%;">Downing St & 22nd Ave</div>`)[0];
+                popup_7b7f77891ad3d13cd78ac926fac96092.setContent(html_861b73b4eeadbeac8111b749e62c10a1);
+            
+        
+
+        marker_840dcc6761d36e6fed628360b25ba09a.bindPopup(popup_7b7f77891ad3d13cd78ac926fac96092)
+        ;
+
+        
+    
+    
+            var marker_9fff62222a7ffe9115255866161b4a57 = L.marker(
+                [39.722166, -104.972859],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_a191ba34b34cbf0b3884f9aeca75fbd9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8a106181902e43fc3e8665ff083d620 = $(`<div id="html_f8a106181902e43fc3e8665ff083d620" style="width: 100.0%; height: 100.0%;">Downing St & 4th Ave</div>`)[0];
+                popup_a191ba34b34cbf0b3884f9aeca75fbd9.setContent(html_f8a106181902e43fc3e8665ff083d620);
+            
+        
+
+        marker_9fff62222a7ffe9115255866161b4a57.bindPopup(popup_a191ba34b34cbf0b3884f9aeca75fbd9)
+        ;
+
+        
+    
+    
+            var marker_424eb517c31dc57ec03970ee64f9171a = L.marker(
+                [39.748748, -104.989695],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_0c9bdf17952bd45d0a0a845b13946a75 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb12b88ad88071fd2f2e1b5efb8ee80e = $(`<div id="html_bb12b88ad88071fd2f2e1b5efb8ee80e" style="width: 100.0%; height: 100.0%;">19th St & Stout St</div>`)[0];
+                popup_0c9bdf17952bd45d0a0a845b13946a75.setContent(html_bb12b88ad88071fd2f2e1b5efb8ee80e);
+            
+        
+
+        marker_424eb517c31dc57ec03970ee64f9171a.bindPopup(popup_0c9bdf17952bd45d0a0a845b13946a75)
+        ;
+
+        
+    
+    
+            var marker_c74bdc97b92768bd816063e282a8f7ad = L.marker(
+                [39.729112, -104.984677],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_374bbf80dd55675a4726f91f96381260 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6522f3acde017db00e4ff9f7d165259 = $(`<div id="html_c6522f3acde017db00e4ff9f7d165259" style="width: 100.0%; height: 100.0%;">8th Ave & Sherman St</div>`)[0];
+                popup_374bbf80dd55675a4726f91f96381260.setContent(html_c6522f3acde017db00e4ff9f7d165259);
+            
+        
+
+        marker_c74bdc97b92768bd816063e282a8f7ad.bindPopup(popup_374bbf80dd55675a4726f91f96381260)
+        ;
+
+        
+    
+    
+            var marker_0e2e140c55b4f7a2ec18fbb0ad68e3a8 = L.marker(
+                [39.749801, -104.987501],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_bc956b5d309661a1a9af34feb8170803 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df7e49b35a62cbd2c14c7ac432bb4e02 = $(`<div id="html_df7e49b35a62cbd2c14c7ac432bb4e02" style="width: 100.0%; height: 100.0%;">Broadway & Stout St</div>`)[0];
+                popup_bc956b5d309661a1a9af34feb8170803.setContent(html_df7e49b35a62cbd2c14c7ac432bb4e02);
+            
+        
+
+        marker_0e2e140c55b4f7a2ec18fbb0ad68e3a8.bindPopup(popup_bc956b5d309661a1a9af34feb8170803)
+        ;
+
+        
+    
+    
+            var marker_77bb05fbfb78205b8c412fff683745d8 = L.marker(
+                [39.743856, -104.950366],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_a51f6c5e3e0e76a792fe723c79fbad17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6978bebcda353cb3d76ec7de602ded51 = $(`<div id="html_6978bebcda353cb3d76ec7de602ded51" style="width: 100.0%; height: 100.0%;">17th Ave & Steele St</div>`)[0];
+                popup_a51f6c5e3e0e76a792fe723c79fbad17.setContent(html_6978bebcda353cb3d76ec7de602ded51);
+            
+        
+
+        marker_77bb05fbfb78205b8c412fff683745d8.bindPopup(popup_a51f6c5e3e0e76a792fe723c79fbad17)
+        ;
+
+        
+    
+    
+            var marker_1b6aed5d04ff82db1f2dbf075fc4b501 = L.marker(
+                [39.74728, -104.973232],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_8da5615538a4b30beea087233bbe570e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_112b5d8a8fe8807493bc328ed121c602 = $(`<div id="html_112b5d8a8fe8807493bc328ed121c602" style="width: 100.0%; height: 100.0%;">Downing St & 20th Ave</div>`)[0];
+                popup_8da5615538a4b30beea087233bbe570e.setContent(html_112b5d8a8fe8807493bc328ed121c602);
+            
+        
+
+        marker_1b6aed5d04ff82db1f2dbf075fc4b501.bindPopup(popup_8da5615538a4b30beea087233bbe570e)
+        ;
+
+        
+    
+    
+            var marker_541f192addd63fe29b44efac069b50ba = L.marker(
+                [39.740068, -104.970836],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_436dead29a606d1189d41b47794c478b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd605dc5ab6b2e2f6a38b55ee0be97d9 = $(`<div id="html_bd605dc5ab6b2e2f6a38b55ee0be97d9" style="width: 100.0%; height: 100.0%;">Colfax Ave & Lafayette St</div>`)[0];
+                popup_436dead29a606d1189d41b47794c478b.setContent(html_bd605dc5ab6b2e2f6a38b55ee0be97d9);
+            
+        
+
+        marker_541f192addd63fe29b44efac069b50ba.bindPopup(popup_436dead29a606d1189d41b47794c478b)
+        ;
+
+        
+    
+    
+            var marker_2de8c845657f66ae156fff4e267f711a = L.marker(
+                [39.749418, -104.977186],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_2489a4d9ad32c2ee346720c7f3ba116b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ebb21e64c80208fdd27629fe823cbd9c = $(`<div id="html_ebb21e64c80208fdd27629fe823cbd9c" style="width: 100.0%; height: 100.0%;">22nd Ave & Clarkson St</div>`)[0];
+                popup_2489a4d9ad32c2ee346720c7f3ba116b.setContent(html_ebb21e64c80208fdd27629fe823cbd9c);
+            
+        
+
+        marker_2de8c845657f66ae156fff4e267f711a.bindPopup(popup_2489a4d9ad32c2ee346720c7f3ba116b)
+        ;
+
+        
+    
+    
+            var marker_5958eb7de3a5fc43fae90ac0303b19a0 = L.marker(
+                [39.735169, -104.95261],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_4a3552c54d85331436f6596311cc748b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1dccd356b664424a22388ff0d7962265 = $(`<div id="html_1dccd356b664424a22388ff0d7962265" style="width: 100.0%; height: 100.0%;">12th Ave & Fillmore St</div>`)[0];
+                popup_4a3552c54d85331436f6596311cc748b.setContent(html_1dccd356b664424a22388ff0d7962265);
+            
+        
+
+        marker_5958eb7de3a5fc43fae90ac0303b19a0.bindPopup(popup_4a3552c54d85331436f6596311cc748b)
+        ;
+
+        
+    
+    
+            var marker_bd9484a665eea7c3ac6df47ffb99a7a3 = L.marker(
+                [39.729301, -104.972894],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_0c8d52da833af1b8ddad6b4769205079 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_918643ba00c9fff95ce1e1156e024eac = $(`<div id="html_918643ba00c9fff95ce1e1156e024eac" style="width: 100.0%; height: 100.0%;">Downing St & 8th Ave</div>`)[0];
+                popup_0c8d52da833af1b8ddad6b4769205079.setContent(html_918643ba00c9fff95ce1e1156e024eac);
+            
+        
+
+        marker_bd9484a665eea7c3ac6df47ffb99a7a3.bindPopup(popup_0c8d52da833af1b8ddad6b4769205079)
+        ;
+
+        
+    
+    
+            var marker_2cb09ece07c06481304591f8c2a52383 = L.marker(
+                [39.722225, -104.974121],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_252d17c21dbefb1d58b20edb952f6de4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_828d75ec425541a03ba7a68337a1ada1 = $(`<div id="html_828d75ec425541a03ba7a68337a1ada1" style="width: 100.0%; height: 100.0%;">Corona St & 4th Ave</div>`)[0];
+                popup_252d17c21dbefb1d58b20edb952f6de4.setContent(html_828d75ec425541a03ba7a68337a1ada1);
+            
+        
+
+        marker_2cb09ece07c06481304591f8c2a52383.bindPopup(popup_252d17c21dbefb1d58b20edb952f6de4)
+        ;
+
+        
+    
+    
+            var marker_319d1b22fe71c9f7adf4f4e2351751b9 = L.marker(
+                [39.731408, -104.983671],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_788bdc0d5c2b40a6b9573857199ae995 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_593e6539890cd58dd02269e0c70693d4 = $(`<div id="html_593e6539890cd58dd02269e0c70693d4" style="width: 100.0%; height: 100.0%;">Grant St & 10th Ave</div>`)[0];
+                popup_788bdc0d5c2b40a6b9573857199ae995.setContent(html_593e6539890cd58dd02269e0c70693d4);
+            
+        
+
+        marker_319d1b22fe71c9f7adf4f4e2351751b9.bindPopup(popup_788bdc0d5c2b40a6b9573857199ae995)
+        ;
+
+        
+    
+    
+            var marker_4ccb48d7d803e82c137c06fdabea98b0 = L.marker(
+                [39.728831, -104.983703],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_e4a7b957c8e003f28bcfabc6b29f37f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f55364c8e4ce294cacbb1fb7995493bb = $(`<div id="html_f55364c8e4ce294cacbb1fb7995493bb" style="width: 100.0%; height: 100.0%;">Grant St & 8th Ave</div>`)[0];
+                popup_e4a7b957c8e003f28bcfabc6b29f37f8.setContent(html_f55364c8e4ce294cacbb1fb7995493bb);
+            
+        
+
+        marker_4ccb48d7d803e82c137c06fdabea98b0.bindPopup(popup_e4a7b957c8e003f28bcfabc6b29f37f8)
+        ;
+
+        
+    
+    
+            var marker_2c15ba8490ceec646df4d4d0ef0e44d5 = L.marker(
+                [39.739985, -104.970731],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_e527e9aef60314828496d1e9b7f10e94 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ccf28e9081718fa858654711a6313c7 = $(`<div id="html_2ccf28e9081718fa858654711a6313c7" style="width: 100.0%; height: 100.0%;">Colfax Ave & Lafayette St</div>`)[0];
+                popup_e527e9aef60314828496d1e9b7f10e94.setContent(html_2ccf28e9081718fa858654711a6313c7);
+            
+        
+
+        marker_2c15ba8490ceec646df4d4d0ef0e44d5.bindPopup(popup_e527e9aef60314828496d1e9b7f10e94)
+        ;
+
+        
+    
+    
+            var marker_8ed74d0469036c8f696a7dc5fcb42aa5 = L.marker(
+                [39.740811, -104.986479],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_9b1a547542b847c1ca843650380a397f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c4ae653d5080a910fb6f79b5c641d25 = $(`<div id="html_6c4ae653d5080a910fb6f79b5c641d25" style="width: 100.0%; height: 100.0%;">Civic Center Station Gate 4</div>`)[0];
+                popup_9b1a547542b847c1ca843650380a397f.setContent(html_6c4ae653d5080a910fb6f79b5c641d25);
+            
+        
+
+        marker_8ed74d0469036c8f696a7dc5fcb42aa5.bindPopup(popup_9b1a547542b847c1ca843650380a397f)
+        ;
+
+        
+    
+    
+            var marker_1ecd00e9798d77b232fab4f859d07b77 = L.marker(
+                [39.725525, -104.962304],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_71f7d52610f5ef489926b61803523f3f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4efb4747005c0ee7ff113b48e85dc740 = $(`<div id="html_4efb4747005c0ee7ff113b48e85dc740" style="width: 100.0%; height: 100.0%;">6th Ave & Gaylord St</div>`)[0];
+                popup_71f7d52610f5ef489926b61803523f3f.setContent(html_4efb4747005c0ee7ff113b48e85dc740);
+            
+        
+
+        marker_1ecd00e9798d77b232fab4f859d07b77.bindPopup(popup_71f7d52610f5ef489926b61803523f3f)
+        ;
+
+        
+    
+    
+            var marker_86354aab968c5611fe4f56649ffdee9d = L.marker(
+                [39.72938, -104.958999],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_33150ce6c9cd53017499a38872f6cc6c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a05b93be0df2b50017151dd3d4dd730d = $(`<div id="html_a05b93be0df2b50017151dd3d4dd730d" style="width: 100.0%; height: 100.0%;">Josephine St & 8th Ave</div>`)[0];
+                popup_33150ce6c9cd53017499a38872f6cc6c.setContent(html_a05b93be0df2b50017151dd3d4dd730d);
+            
+        
+
+        marker_86354aab968c5611fe4f56649ffdee9d.bindPopup(popup_33150ce6c9cd53017499a38872f6cc6c)
+        ;
+
+        
+    
+    
+            var marker_dae3777acb4187d8ccf55d05310bf7f5 = L.marker(
+                [39.720166, -104.978759],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_f464b5308f884b8c56a4087b8d08c8ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_61a87a116300f92da273524bfdff1001 = $(`<div id="html_61a87a116300f92da273524bfdff1001" style="width: 100.0%; height: 100.0%;">Speer Blvd & Washington St</div>`)[0];
+                popup_f464b5308f884b8c56a4087b8d08c8ae.setContent(html_61a87a116300f92da273524bfdff1001);
+            
+        
+
+        marker_dae3777acb4187d8ccf55d05310bf7f5.bindPopup(popup_f464b5308f884b8c56a4087b8d08c8ae)
+        ;
+
+        
+    
+    
+            var marker_3617efca7e5d6d61be198b7270bd2bd5 = L.marker(
+                [39.744847, -104.988924],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_749851f7340d0522b8fdff3e8b2a0fd9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6cdc3ca0bc383ee66f72fe18b4d2c23a = $(`<div id="html_6cdc3ca0bc383ee66f72fe18b4d2c23a" style="width: 100.0%; height: 100.0%;">Glenarm St & 17th St</div>`)[0];
+                popup_749851f7340d0522b8fdff3e8b2a0fd9.setContent(html_6cdc3ca0bc383ee66f72fe18b4d2c23a);
+            
+        
+
+        marker_3617efca7e5d6d61be198b7270bd2bd5.bindPopup(popup_749851f7340d0522b8fdff3e8b2a0fd9)
+        ;
+
+        
+    
+    
+            var marker_dbb3b9a9a8d5666fce38bafe5bfaf3d2 = L.marker(
+                [39.739947, -104.986666],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_238552472be79f60ae4c6bb2052883a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e4110291468346c485d09f7fdb5783ce = $(`<div id="html_e4110291468346c485d09f7fdb5783ce" style="width: 100.0%; height: 100.0%;">Colfax Ave & Broadway</div>`)[0];
+                popup_238552472be79f60ae4c6bb2052883a8.setContent(html_e4110291468346c485d09f7fdb5783ce);
+            
+        
+
+        marker_dbb3b9a9a8d5666fce38bafe5bfaf3d2.bindPopup(popup_238552472be79f60ae4c6bb2052883a8)
+        ;
+
+        
+    
+    
+            var marker_06616c9127dc630cf500b83633e563d1 = L.marker(
+                [39.744857, -104.965151],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_0ae0cd6c3dd13364cc52e6807fb0dbfa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4e2e9e0dae3990c1e4c6b409a76f917 = $(`<div id="html_f4e2e9e0dae3990c1e4c6b409a76f917" style="width: 100.0%; height: 100.0%;">18th Ave & High St</div>`)[0];
+                popup_0ae0cd6c3dd13364cc52e6807fb0dbfa.setContent(html_f4e2e9e0dae3990c1e4c6b409a76f917);
+            
+        
+
+        marker_06616c9127dc630cf500b83633e563d1.bindPopup(popup_0ae0cd6c3dd13364cc52e6807fb0dbfa)
+        ;
+
+        
+    
+    
+            var marker_1258303e919e9c63b4c24c7df475daff = L.marker(
+                [39.746135, -104.980028],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_178e30d84b1ed8c055e70bf530dae73c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8375601852cbc05a63f28b34cf45abf0 = $(`<div id="html_8375601852cbc05a63f28b34cf45abf0" style="width: 100.0%; height: 100.0%;">19th Ave & Pearl St</div>`)[0];
+                popup_178e30d84b1ed8c055e70bf530dae73c.setContent(html_8375601852cbc05a63f28b34cf45abf0);
+            
+        
+
+        marker_1258303e919e9c63b4c24c7df475daff.bindPopup(popup_178e30d84b1ed8c055e70bf530dae73c)
+        ;
+
+        
+    
+    
+            var marker_0519ab6883962a3bdbdb299e0cc9eb16 = L.marker(
+                [39.727596, -104.986043],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_d81aa3e6e9caf3e60cf42e1757efeb72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_71c41b73ad88c5e7ea4ed76c2574cb28 = $(`<div id="html_71c41b73ad88c5e7ea4ed76c2574cb28" style="width: 100.0%; height: 100.0%;">Lincoln St & 7th Ave</div>`)[0];
+                popup_d81aa3e6e9caf3e60cf42e1757efeb72.setContent(html_71c41b73ad88c5e7ea4ed76c2574cb28);
+            
+        
+
+        marker_0519ab6883962a3bdbdb299e0cc9eb16.bindPopup(popup_d81aa3e6e9caf3e60cf42e1757efeb72)
+        ;
+
+        
+    
+    
+            var marker_e94c63db6f3ddcebf2cd1d5b98092296 = L.marker(
+                [39.743905, -104.95435],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_7ce1cfd29f870dc5a4fc424aded27cb8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ed70af4d4bb0a5d74f9d3b841f4e03f = $(`<div id="html_0ed70af4d4bb0a5d74f9d3b841f4e03f" style="width: 100.0%; height: 100.0%;">17th Ave & Fillmore St</div>`)[0];
+                popup_7ce1cfd29f870dc5a4fc424aded27cb8.setContent(html_0ed70af4d4bb0a5d74f9d3b841f4e03f);
+            
+        
+
+        marker_e94c63db6f3ddcebf2cd1d5b98092296.bindPopup(popup_7ce1cfd29f870dc5a4fc424aded27cb8)
+        ;
+
+        
+    
+    
+            var marker_bdd0ab74e85761c20124ba92ee784797 = L.marker(
+                [39.740138, -104.9839],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_7cc4da03bdf0de53e0a81a7a03b4819d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ab3ed7533cb25d07246d072cfb8faff = $(`<div id="html_9ab3ed7533cb25d07246d072cfb8faff" style="width: 100.0%; height: 100.0%;">Colfax Ave & Grant St</div>`)[0];
+                popup_7cc4da03bdf0de53e0a81a7a03b4819d.setContent(html_9ab3ed7533cb25d07246d072cfb8faff);
+            
+        
+
+        marker_bdd0ab74e85761c20124ba92ee784797.bindPopup(popup_7cc4da03bdf0de53e0a81a7a03b4819d)
+        ;
+
+        
+    
+    
+            var marker_c89378c8c67c00ac285a9129ea5b9f55 = L.marker(
+                [39.725555, -104.978388],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_3ee048c3e13340420ce03a9e42783dd2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b929d87e4a1b02855d035ca13d453c54 = $(`<div id="html_b929d87e4a1b02855d035ca13d453c54" style="width: 100.0%; height: 100.0%;">6th Ave & Washington St</div>`)[0];
+                popup_3ee048c3e13340420ce03a9e42783dd2.setContent(html_b929d87e4a1b02855d035ca13d453c54);
+            
+        
+
+        marker_c89378c8c67c00ac285a9129ea5b9f55.bindPopup(popup_3ee048c3e13340420ce03a9e42783dd2)
+        ;
+
+        
+    
+    
+            var marker_80f8a2bb01fa536a018ef38fcfa24348 = L.marker(
+                [39.745392, -104.97318],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_3a572bdef23d811fa212b8282c8f9e89 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ea86be4f3614b83d17aa265ab0e0c59 = $(`<div id="html_3ea86be4f3614b83d17aa265ab0e0c59" style="width: 100.0%; height: 100.0%;">Downing St & 18th Ave</div>`)[0];
+                popup_3a572bdef23d811fa212b8282c8f9e89.setContent(html_3ea86be4f3614b83d17aa265ab0e0c59);
+            
+        
+
+        marker_80f8a2bb01fa536a018ef38fcfa24348.bindPopup(popup_3a572bdef23d811fa212b8282c8f9e89)
+        ;
+
+        
+    
+    
+            var marker_62bc6a25e2a34260357e1317f4d85638 = L.marker(
+                [39.73814, -104.983662],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_1bb948765b1d5876352d667d5d7e69fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4cf16846830d96d07f4fcab614eec07b = $(`<div id="html_4cf16846830d96d07f4fcab614eec07b" style="width: 100.0%; height: 100.0%;">Grant St & 14th Ave</div>`)[0];
+                popup_1bb948765b1d5876352d667d5d7e69fe.setContent(html_4cf16846830d96d07f4fcab614eec07b);
+            
+        
+
+        marker_62bc6a25e2a34260357e1317f4d85638.bindPopup(popup_1bb948765b1d5876352d667d5d7e69fe)
+        ;
+
+        
+    
+    
+            var marker_3044b647f8fd52fa622cf0bfe8adfd05 = L.marker(
+                [39.731563, -104.959194],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_8427ecae9333b792232bf19de3159d39 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7fbff4cf04704bd960f5fa05339c7010 = $(`<div id="html_7fbff4cf04704bd960f5fa05339c7010" style="width: 100.0%; height: 100.0%;">Josephine St & 9th Ave</div>`)[0];
+                popup_8427ecae9333b792232bf19de3159d39.setContent(html_7fbff4cf04704bd960f5fa05339c7010);
+            
+        
+
+        marker_3044b647f8fd52fa622cf0bfe8adfd05.bindPopup(popup_8427ecae9333b792232bf19de3159d39)
+        ;
+
+        
+    
+    
+            var marker_81e6d03f5c2bfb928215c95c4630a1c9 = L.marker(
+                [39.739667, -104.959845],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_4ad6ff6c95d51c2d2fd009da8120ce38 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52d3a2ce5646cdacd69146d8693655b9 = $(`<div id="html_52d3a2ce5646cdacd69146d8693655b9" style="width: 100.0%; height: 100.0%;">York St & Colfax Ave</div>`)[0];
+                popup_4ad6ff6c95d51c2d2fd009da8120ce38.setContent(html_52d3a2ce5646cdacd69146d8693655b9);
+            
+        
+
+        marker_81e6d03f5c2bfb928215c95c4630a1c9.bindPopup(popup_4ad6ff6c95d51c2d2fd009da8120ce38)
+        ;
+
+        
+    
+    
+            var marker_1e0d7202d37e2d2aa7ba98049ed5a26b = L.marker(
+                [39.741031, -104.987191],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_077024c0a7b9df3ed4908b55f220bacd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c687e17cb02a2042e05f7eafcd1b83a = $(`<div id="html_9c687e17cb02a2042e05f7eafcd1b83a" style="width: 100.0%; height: 100.0%;">Civic Center Mall Loop</div>`)[0];
+                popup_077024c0a7b9df3ed4908b55f220bacd.setContent(html_9c687e17cb02a2042e05f7eafcd1b83a);
+            
+        
+
+        marker_1e0d7202d37e2d2aa7ba98049ed5a26b.bindPopup(popup_077024c0a7b9df3ed4908b55f220bacd)
+        ;
+
+        
+    
+    
+            var marker_7dea7fbe4c481410fbc6b4d218b5ae0a = L.marker(
+                [39.743715, -104.953279],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_a9ac08cbf441973de248338bb99826ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_078e07750728f96c4180f672951d3e13 = $(`<div id="html_078e07750728f96c4180f672951d3e13" style="width: 100.0%; height: 100.0%;">17th Ave & Fillmore St</div>`)[0];
+                popup_a9ac08cbf441973de248338bb99826ff.setContent(html_078e07750728f96c4180f672951d3e13);
+            
+        
+
+        marker_7dea7fbe4c481410fbc6b4d218b5ae0a.bindPopup(popup_a9ac08cbf441973de248338bb99826ff)
+        ;
+
+        
+    
+    
+            var marker_3f1948dee26c591dd56ba0309a0e9912 = L.marker(
+                [39.736911, -104.98786],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_c3617e57988a1ea2012d21737ac2357b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3c89b9ed69d26ee89c2aa668d122266 = $(`<div id="html_e3c89b9ed69d26ee89c2aa668d122266" style="width: 100.0%; height: 100.0%;">W 13th Ave & Broadway</div>`)[0];
+                popup_c3617e57988a1ea2012d21737ac2357b.setContent(html_e3c89b9ed69d26ee89c2aa668d122266);
+            
+        
+
+        marker_3f1948dee26c591dd56ba0309a0e9912.bindPopup(popup_c3617e57988a1ea2012d21737ac2357b)
+        ;
+
+        
+    
+    
+            var marker_2c8747ef034874dae3c959aea4f21a85 = L.marker(
+                [39.743198, -104.98209],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_45bedca3fe7a121e5bcba7b755dc4f8a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f47a45b9294710ad37e12b94cc30b6a2 = $(`<div id="html_f47a45b9294710ad37e12b94cc30b6a2" style="width: 100.0%; height: 100.0%;">17th Ave & Logan St</div>`)[0];
+                popup_45bedca3fe7a121e5bcba7b755dc4f8a.setContent(html_f47a45b9294710ad37e12b94cc30b6a2);
+            
+        
+
+        marker_2c8747ef034874dae3c959aea4f21a85.bindPopup(popup_45bedca3fe7a121e5bcba7b755dc4f8a)
+        ;
+
+        
+    
+    
+            var marker_f8058e967ab518118b3f62aa238b584b = L.marker(
+                [39.746934, -104.98974],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_b62d85e8d13d2c87d66e144421845859 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_11aca4c93719a9ec257e5c641b3baad2 = $(`<div id="html_11aca4c93719a9ec257e5c641b3baad2" style="width: 100.0%; height: 100.0%;">18th St / California Station</div>`)[0];
+                popup_b62d85e8d13d2c87d66e144421845859.setContent(html_11aca4c93719a9ec257e5c641b3baad2);
+            
+        
+
+        marker_f8058e967ab518118b3f62aa238b584b.bindPopup(popup_b62d85e8d13d2c87d66e144421845859)
+        ;
+
+        
+    
+    
+            var marker_90c47e1d568bf1cdec5f0d6048e503e9 = L.marker(
+                [39.748074, -104.986647],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_89a15497de7aa2d7c4823e04ba036ab6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c397418a55bcc2a0528d36c5d866bcd4 = $(`<div id="html_c397418a55bcc2a0528d36c5d866bcd4" style="width: 100.0%; height: 100.0%;">20th & Welton Station</div>`)[0];
+                popup_89a15497de7aa2d7c4823e04ba036ab6.setContent(html_c397418a55bcc2a0528d36c5d866bcd4);
+            
+        
+
+        marker_90c47e1d568bf1cdec5f0d6048e503e9.bindPopup(popup_89a15497de7aa2d7c4823e04ba036ab6)
+        ;
+
+        
+    
+    
+            var marker_55366c44350820db2eff5d48636e8a0d = L.marker(
+                [39.734884, -104.974166],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_b6979fa3941767da4c69372a7a21fd95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_becab1d641e62577362a9b11235438b6 = $(`<div id="html_becab1d641e62577362a9b11235438b6" style="width: 100.0%; height: 100.0%;">Corona St & 12th Ave</div>`)[0];
+                popup_b6979fa3941767da4c69372a7a21fd95.setContent(html_becab1d641e62577362a9b11235438b6);
+            
+        
+
+        marker_55366c44350820db2eff5d48636e8a0d.bindPopup(popup_b6979fa3941767da4c69372a7a21fd95)
+        ;
+
+        
+    
+    
+            var marker_27a932a9465f792314daa5e60a6d1200 = L.marker(
+                [39.739968, -104.959123],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_a2b99db65a894bb7b9d16e2137a5b3b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75524ceb2ff7e8f0d6227ab8991209da = $(`<div id="html_75524ceb2ff7e8f0d6227ab8991209da" style="width: 100.0%; height: 100.0%;">Colfax Ave & Josephine St</div>`)[0];
+                popup_a2b99db65a894bb7b9d16e2137a5b3b5.setContent(html_75524ceb2ff7e8f0d6227ab8991209da);
+            
+        
+
+        marker_27a932a9465f792314daa5e60a6d1200.bindPopup(popup_a2b99db65a894bb7b9d16e2137a5b3b5)
+        ;
+
+        
+    
+    
+            var marker_f404fc7d8f9fb753de2013cc3ef04493 = L.marker(
+                [39.741183, -104.986693],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_4df2ebd253b073c4d8be3f349ffbd209 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a48a71237cca196754a8b5c605772f35 = $(`<div id="html_a48a71237cca196754a8b5c605772f35" style="width: 100.0%; height: 100.0%;">Civic Center Station Gate 2</div>`)[0];
+                popup_4df2ebd253b073c4d8be3f349ffbd209.setContent(html_a48a71237cca196754a8b5c605772f35);
+            
+        
+
+        marker_f404fc7d8f9fb753de2013cc3ef04493.bindPopup(popup_4df2ebd253b073c4d8be3f349ffbd209)
+        ;
+
+        
+    
+    
+            var marker_8350c69d3ce6efad1460a7e00d386a4d = L.marker(
+                [39.740774, -104.986746],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_74430dceaf9517bf111e9d1be73d7a05 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7b0f97c4ab3b777b31ac01f4dc5b836 = $(`<div id="html_a7b0f97c4ab3b777b31ac01f4dc5b836" style="width: 100.0%; height: 100.0%;">Civic Center Station Gate 5</div>`)[0];
+                popup_74430dceaf9517bf111e9d1be73d7a05.setContent(html_a7b0f97c4ab3b777b31ac01f4dc5b836);
+            
+        
+
+        marker_8350c69d3ce6efad1460a7e00d386a4d.bindPopup(popup_74430dceaf9517bf111e9d1be73d7a05)
+        ;
+
+        
+    
+    
+            var marker_2c13e89eef0ba4f23e2ea913da791ebb = L.marker(
+                [39.743726, -104.956224],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_e8951b67369d21cbc28df3efca6085a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55207658057309f4fa51631a0e3349a6 = $(`<div id="html_55207658057309f4fa51631a0e3349a6" style="width: 100.0%; height: 100.0%;">17th Ave & Esplanade</div>`)[0];
+                popup_e8951b67369d21cbc28df3efca6085a8.setContent(html_55207658057309f4fa51631a0e3349a6);
+            
+        
+
+        marker_2c13e89eef0ba4f23e2ea913da791ebb.bindPopup(popup_e8951b67369d21cbc28df3efca6085a8)
+        ;
+
+        
+    
+    
+            var marker_b8216857ba0754e58f7860cffd2356af = L.marker(
+                [39.720648, -104.959515],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_c6181e800a32563bd57912d535cd8117 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d6653cfe74446f788404166d43175cd = $(`<div id="html_6d6653cfe74446f788404166d43175cd" style="width: 100.0%; height: 100.0%;">University Blvd & 3rd Ave</div>`)[0];
+                popup_c6181e800a32563bd57912d535cd8117.setContent(html_6d6653cfe74446f788404166d43175cd);
+            
+        
+
+        marker_b8216857ba0754e58f7860cffd2356af.bindPopup(popup_c6181e800a32563bd57912d535cd8117)
+        ;
+
+        
+    
+    
+            var marker_f78d53c9dc8e39cb7b2e8c51fcce1c77 = L.marker(
+                [39.743506, -104.959863],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_2f9432bcfefb2c864df9438362bbb7cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0e4a7de1fbdb6d2883ddae715134835d = $(`<div id="html_0e4a7de1fbdb6d2883ddae715134835d" style="width: 100.0%; height: 100.0%;">York St & 17th Ave</div>`)[0];
+                popup_2f9432bcfefb2c864df9438362bbb7cc.setContent(html_0e4a7de1fbdb6d2883ddae715134835d);
+            
+        
+
+        marker_f78d53c9dc8e39cb7b2e8c51fcce1c77.bindPopup(popup_2f9432bcfefb2c864df9438362bbb7cc)
+        ;
+
+        
+    
+    
+            var marker_997c23205cee1c85b66219685d53d8a2 = L.marker(
+                [39.740039, -104.978657],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_c29cba3952aa95a73cee9133cc47a725 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3a8147291271d541a04e457c422f547 = $(`<div id="html_a3a8147291271d541a04e457c422f547" style="width: 100.0%; height: 100.0%;">Colfax Ave & Washington St</div>`)[0];
+                popup_c29cba3952aa95a73cee9133cc47a725.setContent(html_a3a8147291271d541a04e457c422f547);
+            
+        
+
+        marker_997c23205cee1c85b66219685d53d8a2.bindPopup(popup_c29cba3952aa95a73cee9133cc47a725)
+        ;
+
+        
+    
+    
+            var marker_4488cf88fae44a7088b826b07421d3fa = L.marker(
+                [39.735332, -104.984014],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_315687f8fa97f4e9eeeed427a2ac8b38 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6278b8d62f787b9bfb49a6334dc1e218 = $(`<div id="html_6278b8d62f787b9bfb49a6334dc1e218" style="width: 100.0%; height: 100.0%;">12th Ave & Grant St</div>`)[0];
+                popup_315687f8fa97f4e9eeeed427a2ac8b38.setContent(html_6278b8d62f787b9bfb49a6334dc1e218);
+            
+        
+
+        marker_4488cf88fae44a7088b826b07421d3fa.bindPopup(popup_315687f8fa97f4e9eeeed427a2ac8b38)
+        ;
+
+        
+    
+    
+            var marker_2be089e489f8e9404479e5fffa1185d9 = L.marker(
+                [39.725551, -104.955439],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_92fd1b4b30985fe23f3b70ecc07cfa56 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_880059a5abe83b993f3d4cee886c2b9d = $(`<div id="html_880059a5abe83b993f3d4cee886c2b9d" style="width: 100.0%; height: 100.0%;">6th Ave & Clayton St</div>`)[0];
+                popup_92fd1b4b30985fe23f3b70ecc07cfa56.setContent(html_880059a5abe83b993f3d4cee886c2b9d);
+            
+        
+
+        marker_2be089e489f8e9404479e5fffa1185d9.bindPopup(popup_92fd1b4b30985fe23f3b70ecc07cfa56)
+        ;
+
+        
+    
+    
+            var marker_7290c252f602d66c007612ce357bb289 = L.marker(
+                [39.725452, -104.972868],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_fa29a3bf92fbf799cc1391dd0208c681 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca79acad1735d9ac51a016fba80f7bcd = $(`<div id="html_ca79acad1735d9ac51a016fba80f7bcd" style="width: 100.0%; height: 100.0%;">Downing St & 6th Ave</div>`)[0];
+                popup_fa29a3bf92fbf799cc1391dd0208c681.setContent(html_ca79acad1735d9ac51a016fba80f7bcd);
+            
+        
+
+        marker_7290c252f602d66c007612ce357bb289.bindPopup(popup_fa29a3bf92fbf799cc1391dd0208c681)
+        ;
+
+        
+    
+    
+            var marker_f0af0bbfc163431e7179691ba5202648 = L.marker(
+                [39.746556, -104.973454],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_551e78f3c086f1d75282c8c4142b369d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd672f9660961a6878138414855b0871 = $(`<div id="html_cd672f9660961a6878138414855b0871" style="width: 100.0%; height: 100.0%;">Downing St & 20th Ave</div>`)[0];
+                popup_551e78f3c086f1d75282c8c4142b369d.setContent(html_cd672f9660961a6878138414855b0871);
+            
+        
+
+        marker_f0af0bbfc163431e7179691ba5202648.bindPopup(popup_551e78f3c086f1d75282c8c4142b369d)
+        ;
+
+        
+    
+    
+            var marker_f8e276584af20aad72da35a464a44c0f = L.marker(
+                [39.735096, -104.956006],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_e7d622078b0d7b943aa40e781582f9f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a8c75d09910c1d8eface5331bb6215b = $(`<div id="html_4a8c75d09910c1d8eface5331bb6215b" style="width: 100.0%; height: 100.0%;">12th Ave & Elizabeth St</div>`)[0];
+                popup_e7d622078b0d7b943aa40e781582f9f7.setContent(html_4a8c75d09910c1d8eface5331bb6215b);
+            
+        
+
+        marker_f8e276584af20aad72da35a464a44c0f.bindPopup(popup_e7d622078b0d7b943aa40e781582f9f7)
+        ;
+
+        
+    
+    
+            var marker_b392d6d0c6396cf37a0cdd63a03a7729 = L.marker(
+                [39.743882, -104.956448],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_b2b9dc93b8acc3a2aca3df4ce6f05787 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_199e7a42e6044e4c08e175fc5ce2f222 = $(`<div id="html_199e7a42e6044e4c08e175fc5ce2f222" style="width: 100.0%; height: 100.0%;">17th Ave & Esplanade</div>`)[0];
+                popup_b2b9dc93b8acc3a2aca3df4ce6f05787.setContent(html_199e7a42e6044e4c08e175fc5ce2f222);
+            
+        
+
+        marker_b392d6d0c6396cf37a0cdd63a03a7729.bindPopup(popup_b2b9dc93b8acc3a2aca3df4ce6f05787)
+        ;
+
+        
+    
+    
+            var marker_7c4a07e855690813c61e7935b2ee1c45 = L.marker(
+                [39.743299, -104.959408],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_127a71f2a682d5fd39f21c65ef6b0a88 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5682ac0cc68b64d4cbfa97b9cd0e492 = $(`<div id="html_e5682ac0cc68b64d4cbfa97b9cd0e492" style="width: 100.0%; height: 100.0%;">17th Ave & Josephine St</div>`)[0];
+                popup_127a71f2a682d5fd39f21c65ef6b0a88.setContent(html_e5682ac0cc68b64d4cbfa97b9cd0e492);
+            
+        
+
+        marker_7c4a07e855690813c61e7935b2ee1c45.bindPopup(popup_127a71f2a682d5fd39f21c65ef6b0a88)
+        ;
+
+        
+    
+    
+            var marker_eee760eba8f56d9e37daf9fb5d12b78c = L.marker(
+                [39.732524, -104.959882],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_fdc45dcf9c6f9c30c92c1300b18c862b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1e58574bd17a635fc4f844632087872 = $(`<div id="html_d1e58574bd17a635fc4f844632087872" style="width: 100.0%; height: 100.0%;">York St & 9th Ave</div>`)[0];
+                popup_fdc45dcf9c6f9c30c92c1300b18c862b.setContent(html_d1e58574bd17a635fc4f844632087872);
+            
+        
+
+        marker_eee760eba8f56d9e37daf9fb5d12b78c.bindPopup(popup_fdc45dcf9c6f9c30c92c1300b18c862b)
+        ;
+
+        
+    
+    
+            var marker_20c2b5c9bd4b46e1701dff14cee68f8d = L.marker(
+                [39.747879, -104.987032],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_2e235599a7fd43b0b4e94ddc7c6f586f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d9d059e34c07b0a995e9a1f747c9c78 = $(`<div id="html_0d9d059e34c07b0a995e9a1f747c9c78" style="width: 100.0%; height: 100.0%;">20th & Welton Station</div>`)[0];
+                popup_2e235599a7fd43b0b4e94ddc7c6f586f.setContent(html_0d9d059e34c07b0a995e9a1f747c9c78);
+            
+        
+
+        marker_20c2b5c9bd4b46e1701dff14cee68f8d.bindPopup(popup_2e235599a7fd43b0b4e94ddc7c6f586f)
+        ;
+
+        
+    
+    
+            var marker_26002104b435b81dce469319d145a8b5 = L.marker(
+                [39.735182, -104.981386],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_a6ccd2865721c447e0909d16dc9b80c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e34e8b4c45693b94baab213e4a2a4f64 = $(`<div id="html_e34e8b4c45693b94baab213e4a2a4f64" style="width: 100.0%; height: 100.0%;">12th Ave & Pennsylvania St</div>`)[0];
+                popup_a6ccd2865721c447e0909d16dc9b80c4.setContent(html_e34e8b4c45693b94baab213e4a2a4f64);
+            
+        
+
+        marker_26002104b435b81dce469319d145a8b5.bindPopup(popup_a6ccd2865721c447e0909d16dc9b80c4)
+        ;
+
+        
+    
+    
+            var marker_3a531a4a90bdd21c0f40cabd23ec1407 = L.marker(
+                [39.743193, -104.977204],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_ebb1c69fe8531e1b9f280cea17941640 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9217039e91c2d0ea3536fb5ea13cbd3d = $(`<div id="html_9217039e91c2d0ea3536fb5ea13cbd3d" style="width: 100.0%; height: 100.0%;">17th Ave & Clarkson St</div>`)[0];
+                popup_ebb1c69fe8531e1b9f280cea17941640.setContent(html_9217039e91c2d0ea3536fb5ea13cbd3d);
+            
+        
+
+        marker_3a531a4a90bdd21c0f40cabd23ec1407.bindPopup(popup_ebb1c69fe8531e1b9f280cea17941640)
+        ;
+
+        
+    
+    
+            var marker_9f947431aa8f3dbeb9bcf253adb738d8 = L.marker(
+                [39.729124, -104.979104],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_de623c48456a80457250cb39da3cbf8d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_14d233a38f60a61879183bd8e6ab2dfc = $(`<div id="html_14d233a38f60a61879183bd8e6ab2dfc" style="width: 100.0%; height: 100.0%;">8th Ave & Washington St</div>`)[0];
+                popup_de623c48456a80457250cb39da3cbf8d.setContent(html_14d233a38f60a61879183bd8e6ab2dfc);
+            
+        
+
+        marker_9f947431aa8f3dbeb9bcf253adb738d8.bindPopup(popup_de623c48456a80457250cb39da3cbf8d)
+        ;
+
+        
+    
+    
+            var marker_05b7410d82d1f895c89a33b4fb996c89 = L.marker(
+                [39.741184, -104.989239],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_318430f5243fa5cd6b9e3bcb96ceb986 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd798d05fb6c6fabb8b211f9cab39216 = $(`<div id="html_bd798d05fb6c6fabb8b211f9cab39216" style="width: 100.0%; height: 100.0%;">15th St & Cleveland Pl</div>`)[0];
+                popup_318430f5243fa5cd6b9e3bcb96ceb986.setContent(html_bd798d05fb6c6fabb8b211f9cab39216);
+            
+        
+
+        marker_05b7410d82d1f895c89a33b4fb996c89.bindPopup(popup_318430f5243fa5cd6b9e3bcb96ceb986)
+        ;
+
+        
+    
+    
+            var marker_0c251014fd823ca69cd75a93999f5ee0 = L.marker(
+                [39.740952, -104.986429],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_ac457ebf377697091e3cabbf75815feb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f433dfd83a47353a20eb1b453c00871 = $(`<div id="html_1f433dfd83a47353a20eb1b453c00871" style="width: 100.0%; height: 100.0%;">Civic Center Station Gate 3</div>`)[0];
+                popup_ac457ebf377697091e3cabbf75815feb.setContent(html_1f433dfd83a47353a20eb1b453c00871);
+            
+        
+
+        marker_0c251014fd823ca69cd75a93999f5ee0.bindPopup(popup_ac457ebf377697091e3cabbf75815feb)
+        ;
+
+        
+    
+    
+            var marker_6a0d4e015906025a78827eb1ec95f116 = L.marker(
+                [39.735237, -104.986919],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_5a454fe1999cf0de99c6e94b7b6e48ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af6a70e528c5075ea99a5f0687207f79 = $(`<div id="html_af6a70e528c5075ea99a5f0687207f79" style="width: 100.0%; height: 100.0%;">12th Ave & Broadway</div>`)[0];
+                popup_5a454fe1999cf0de99c6e94b7b6e48ec.setContent(html_af6a70e528c5075ea99a5f0687207f79);
+            
+        
+
+        marker_6a0d4e015906025a78827eb1ec95f116.bindPopup(popup_5a454fe1999cf0de99c6e94b7b6e48ec)
+        ;
+
+        
+    
+    
+            var marker_6678684efa873235ac11dd41ef09366b = L.marker(
+                [39.729174, -104.954743],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_cac3eb9d4fa56dc9cf9ad51f68b0fcad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_65d944d090a780925f56c15ec0cec9ca = $(`<div id="html_65d944d090a780925f56c15ec0cec9ca" style="width: 100.0%; height: 100.0%;">8th Ave & Detroit St</div>`)[0];
+                popup_cac3eb9d4fa56dc9cf9ad51f68b0fcad.setContent(html_65d944d090a780925f56c15ec0cec9ca);
+            
+        
+
+        marker_6678684efa873235ac11dd41ef09366b.bindPopup(popup_cac3eb9d4fa56dc9cf9ad51f68b0fcad)
+        ;
+
+        
+    
+    
+            var marker_800645eeb33639bb669a0b1023330d73 = L.marker(
+                [39.729155, -104.959567],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_4862ad2cdf9c5f007807542c75097220 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aff76be86d6b5f836535768d6a7ee1ea = $(`<div id="html_aff76be86d6b5f836535768d6a7ee1ea" style="width: 100.0%; height: 100.0%;">8th Ave & Josephine St</div>`)[0];
+                popup_4862ad2cdf9c5f007807542c75097220.setContent(html_aff76be86d6b5f836535768d6a7ee1ea);
+            
+        
+
+        marker_800645eeb33639bb669a0b1023330d73.bindPopup(popup_4862ad2cdf9c5f007807542c75097220)
+        ;
+
+        
+    
+    
+            var marker_f017c146a89b793375a6008f8c22fff2 = L.marker(
+                [39.733487, -104.987534],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_625fde4148345f3791b532f03ff70b21 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d8e7e7d6c38d5ff598d64238e1b8606 = $(`<div id="html_8d8e7e7d6c38d5ff598d64238e1b8606" style="width: 100.0%; height: 100.0%;">Broadway & W 11th Ave</div>`)[0];
+                popup_625fde4148345f3791b532f03ff70b21.setContent(html_8d8e7e7d6c38d5ff598d64238e1b8606);
+            
+        
+
+        marker_f017c146a89b793375a6008f8c22fff2.bindPopup(popup_625fde4148345f3791b532f03ff70b21)
+        ;
+
+        
+    
+    
+            var marker_0c3c67350c6784785a1542b62481e0cf = L.marker(
+                [39.7351, -104.973595],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_44958aa3d9c2bef720eb215e9e33a545 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_074ed493278f5f8b519f14522e8a52c7 = $(`<div id="html_074ed493278f5f8b519f14522e8a52c7" style="width: 100.0%; height: 100.0%;">12th Ave & Corona St</div>`)[0];
+                popup_44958aa3d9c2bef720eb215e9e33a545.setContent(html_074ed493278f5f8b519f14522e8a52c7);
+            
+        
+
+        marker_0c3c67350c6784785a1542b62481e0cf.bindPopup(popup_44958aa3d9c2bef720eb215e9e33a545)
+        ;
+
+        
+    
+    
+            var marker_0746254e0e3b7187afd8689b94025467 = L.marker(
+                [39.723862, -104.986181],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_847bcb4009cb1c051b7746984d345dbf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01eeb156a15155a9b800823e0a9f7e94 = $(`<div id="html_01eeb156a15155a9b800823e0a9f7e94" style="width: 100.0%; height: 100.0%;">Lincoln St & 5th Ave</div>`)[0];
+                popup_847bcb4009cb1c051b7746984d345dbf.setContent(html_01eeb156a15155a9b800823e0a9f7e94);
+            
+        
+
+        marker_0746254e0e3b7187afd8689b94025467.bindPopup(popup_847bcb4009cb1c051b7746984d345dbf)
+        ;
+
+        
+    
+    
+            var marker_947d1465f089ec10a4f0b70900b7ddd3 = L.marker(
+                [39.733401, -104.986033],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_98ba7b1d1059bdbfdf7b2784bab27906 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a4baed9c0b375313a9e0358b2f2fee6 = $(`<div id="html_7a4baed9c0b375313a9e0358b2f2fee6" style="width: 100.0%; height: 100.0%;">Lincoln St & 11th Ave</div>`)[0];
+                popup_98ba7b1d1059bdbfdf7b2784bab27906.setContent(html_7a4baed9c0b375313a9e0358b2f2fee6);
+            
+        
+
+        marker_947d1465f089ec10a4f0b70900b7ddd3.bindPopup(popup_98ba7b1d1059bdbfdf7b2784bab27906)
+        ;
+
+        
+    
+    
+            var marker_080c134e5164058d0a729858336ca9a9 = L.marker(
+                [39.746128, -104.983247],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_f517ca4c2635d9174e2d13c51cbc9bd9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_829724a31f5838fbed84b8d935c60132 = $(`<div id="html_829724a31f5838fbed84b8d935c60132" style="width: 100.0%; height: 100.0%;">19th Ave & Grant St</div>`)[0];
+                popup_f517ca4c2635d9174e2d13c51cbc9bd9.setContent(html_829724a31f5838fbed84b8d935c60132);
+            
+        
+
+        marker_080c134e5164058d0a729858336ca9a9.bindPopup(popup_f517ca4c2635d9174e2d13c51cbc9bd9)
+        ;
+
+        
+    
+    
+            var marker_39e699ab7e6b6500f131ecdfa69eafe8 = L.marker(
+                [39.740257, -104.955228],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_7bfc30ae946a2c8b4e8cfe7bc7b95cbe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d8ae07db9680418200895d30eb3c232 = $(`<div id="html_8d8ae07db9680418200895d30eb3c232" style="width: 100.0%; height: 100.0%;">Colfax Ave & Detroit St</div>`)[0];
+                popup_7bfc30ae946a2c8b4e8cfe7bc7b95cbe.setContent(html_8d8ae07db9680418200895d30eb3c232);
+            
+        
+
+        marker_39e699ab7e6b6500f131ecdfa69eafe8.bindPopup(popup_7bfc30ae946a2c8b4e8cfe7bc7b95cbe)
+        ;
+
+        
+    
+    
+            var marker_95de88f03b3077a5507d5c125338bb19 = L.marker(
+                [39.745099, -104.959713],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_8dc8ee83c88ea03e4375161a223dbddf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5fcd49852d9e118b82cfa5bcf456e87e = $(`<div id="html_5fcd49852d9e118b82cfa5bcf456e87e" style="width: 100.0%; height: 100.0%;">York St & 18th Ave</div>`)[0];
+                popup_8dc8ee83c88ea03e4375161a223dbddf.setContent(html_5fcd49852d9e118b82cfa5bcf456e87e);
+            
+        
+
+        marker_95de88f03b3077a5507d5c125338bb19.bindPopup(popup_8dc8ee83c88ea03e4375161a223dbddf)
+        ;
+
+        
+    
+    
+            var marker_d88867d254bd49ed0fda37d484b83994 = L.marker(
+                [39.746846, -104.989894],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_0e7d7c7a5edc2d77a401c24bd1626dec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0918b3a2a4271841c3ca6314b7a15e0b = $(`<div id="html_0918b3a2a4271841c3ca6314b7a15e0b" style="width: 100.0%; height: 100.0%;">18th & California Station</div>`)[0];
+                popup_0e7d7c7a5edc2d77a401c24bd1626dec.setContent(html_0918b3a2a4271841c3ca6314b7a15e0b);
+            
+        
+
+        marker_d88867d254bd49ed0fda37d484b83994.bindPopup(popup_0e7d7c7a5edc2d77a401c24bd1626dec)
+        ;
+
+        
+    
+    
+            var marker_13e2a9f20eab751b0ac47e8a90fa1b4b = L.marker(
+                [39.735091, -104.963763],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_4da892908dcbc143ed12a46fd4804fe1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ee255b7c824779df2797a57d6c28506 = $(`<div id="html_8ee255b7c824779df2797a57d6c28506" style="width: 100.0%; height: 100.0%;">12th Ave & Race St</div>`)[0];
+                popup_4da892908dcbc143ed12a46fd4804fe1.setContent(html_8ee255b7c824779df2797a57d6c28506);
+            
+        
+
+        marker_13e2a9f20eab751b0ac47e8a90fa1b4b.bindPopup(popup_4da892908dcbc143ed12a46fd4804fe1)
+        ;
+
+        
+    
+    
+            var marker_69858ad12341e0e82bd95fe92beaa7be = L.marker(
+                [39.722371, -104.958202],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_f69b72b91a552edb71d77706b68b055b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4bfcc020863756d2179fc7feae758dbb = $(`<div id="html_4bfcc020863756d2179fc7feae758dbb" style="width: 100.0%; height: 100.0%;">Josephine St & 4th Ave</div>`)[0];
+                popup_f69b72b91a552edb71d77706b68b055b.setContent(html_4bfcc020863756d2179fc7feae758dbb);
+            
+        
+
+        marker_69858ad12341e0e82bd95fe92beaa7be.bindPopup(popup_f69b72b91a552edb71d77706b68b055b)
+        ;
+
+        
+    
+    
+            var marker_06cecf9688cf5e34275067edb23be8fe = L.marker(
+                [39.72632, -104.987563],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_e6157b0dbd0aa933de324dfb45736d4b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c080a96fd4f2af290cd9ec02b2c4d286 = $(`<div id="html_c080a96fd4f2af290cd9ec02b2c4d286" style="width: 100.0%; height: 100.0%;">Broadway & Speer Blvd</div>`)[0];
+                popup_e6157b0dbd0aa933de324dfb45736d4b.setContent(html_c080a96fd4f2af290cd9ec02b2c4d286);
+            
+        
+
+        marker_06cecf9688cf5e34275067edb23be8fe.bindPopup(popup_e6157b0dbd0aa933de324dfb45736d4b)
+        ;
+
+        
+    
+    
+            var marker_b73d9d8d5043f326880e4d4cefd3798f = L.marker(
+                [39.725519, -104.97028],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_e6000905c63a7e5fae6a1f87cd1be21f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_166cb911b43df42397245f55f27ff8dc = $(`<div id="html_166cb911b43df42397245f55f27ff8dc" style="width: 100.0%; height: 100.0%;">6th Ave & Lafayette St</div>`)[0];
+                popup_e6000905c63a7e5fae6a1f87cd1be21f.setContent(html_166cb911b43df42397245f55f27ff8dc);
+            
+        
+
+        marker_b73d9d8d5043f326880e4d4cefd3798f.bindPopup(popup_e6000905c63a7e5fae6a1f87cd1be21f)
+        ;
+
+        
+    
+    
+            var marker_c71cca8308f2673742daedc1a99a2a97 = L.marker(
+                [39.728857, -104.974131],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_deaa19a509ce81b9b2fd439b53d6e9ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e71d2dad71a10bf4a28ad07817fec49 = $(`<div id="html_7e71d2dad71a10bf4a28ad07817fec49" style="width: 100.0%; height: 100.0%;">Corona St & 8th Ave</div>`)[0];
+                popup_deaa19a509ce81b9b2fd439b53d6e9ed.setContent(html_7e71d2dad71a10bf4a28ad07817fec49);
+            
+        
+
+        marker_c71cca8308f2673742daedc1a99a2a97.bindPopup(popup_deaa19a509ce81b9b2fd439b53d6e9ed)
+        ;
+
+        
+    
+    
+            var marker_1641bc09f6a2ef64622a1b16362e1eea = L.marker(
+                [39.730211, -104.974146],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_c461674a6da0e7865e00a99ed3e96719 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5bbe0f31ef527aa946298c093f314206 = $(`<div id="html_5bbe0f31ef527aa946298c093f314206" style="width: 100.0%; height: 100.0%;">Corona St & 9th Ave</div>`)[0];
+                popup_c461674a6da0e7865e00a99ed3e96719.setContent(html_5bbe0f31ef527aa946298c093f314206);
+            
+        
+
+        marker_1641bc09f6a2ef64622a1b16362e1eea.bindPopup(popup_c461674a6da0e7865e00a99ed3e96719)
+        ;
+
+        
+    
+    
+            var marker_80d1ef81a8dc399fff6be2532f0052a2 = L.marker(
+                [39.73519, -104.973475],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_0219e00be926f065cc86ce506517390a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0d356bf9cf1e5207abe0fc5cf33d38a = $(`<div id="html_a0d356bf9cf1e5207abe0fc5cf33d38a" style="width: 100.0%; height: 100.0%;">12th Ave & Downing St</div>`)[0];
+                popup_0219e00be926f065cc86ce506517390a.setContent(html_a0d356bf9cf1e5207abe0fc5cf33d38a);
+            
+        
+
+        marker_80d1ef81a8dc399fff6be2532f0052a2.bindPopup(popup_0219e00be926f065cc86ce506517390a)
+        ;
+
+        
+    
+    
+            var marker_3c9084e6168fbee2fd96d1a7828c4bf6 = L.marker(
+                [39.740658, -104.986904],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_55ba18cad8fd95df55ebc0e671364921 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79f3f54687dc4e1a6dbd065428bd55fe = $(`<div id="html_79f3f54687dc4e1a6dbd065428bd55fe" style="width: 100.0%; height: 100.0%;">Civic Center Station Gate 7</div>`)[0];
+                popup_55ba18cad8fd95df55ebc0e671364921.setContent(html_79f3f54687dc4e1a6dbd065428bd55fe);
+            
+        
+
+        marker_3c9084e6168fbee2fd96d1a7828c4bf6.bindPopup(popup_55ba18cad8fd95df55ebc0e671364921)
+        ;
+
+        
+    
+    
+            var marker_cd71da629e4063397b2b2b4501e0ff92 = L.marker(
+                [39.736705, -104.986027],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_87f52deeca3be1fd12d10c57d9676259 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b81860725febc1a3b2326dda3fe3a414 = $(`<div id="html_b81860725febc1a3b2326dda3fe3a414" style="width: 100.0%; height: 100.0%;">Lincoln St & 13th Ave</div>`)[0];
+                popup_87f52deeca3be1fd12d10c57d9676259.setContent(html_b81860725febc1a3b2326dda3fe3a414);
+            
+        
+
+        marker_cd71da629e4063397b2b2b4501e0ff92.bindPopup(popup_87f52deeca3be1fd12d10c57d9676259)
+        ;
+
+        
+    
+    
+            var marker_fa2af7a3e486f85e01ce2fd664435084 = L.marker(
+                [39.736597, -104.95987],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_cbb69670983d4aaf3ba3b9c27129d757 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea532a7ac612f6c32d1bcc9021eafb7d = $(`<div id="html_ea532a7ac612f6c32d1bcc9021eafb7d" style="width: 100.0%; height: 100.0%;">York St & 13th Ave</div>`)[0];
+                popup_cbb69670983d4aaf3ba3b9c27129d757.setContent(html_ea532a7ac612f6c32d1bcc9021eafb7d);
+            
+        
+
+        marker_fa2af7a3e486f85e01ce2fd664435084.bindPopup(popup_cbb69670983d4aaf3ba3b9c27129d757)
+        ;
+
+        
+    
+    
+            var marker_8a7e90f7ce8c319ee42ab0d4d71e0b0d = L.marker(
+                [39.748472, -104.959698],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_ec9401ad410a16299ee5887edb4ca557 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cbad813abe5c0793470815e8a2c083d6 = $(`<div id="html_cbad813abe5c0793470815e8a2c083d6" style="width: 100.0%; height: 100.0%;">York St & 21st Ave</div>`)[0];
+                popup_ec9401ad410a16299ee5887edb4ca557.setContent(html_cbad813abe5c0793470815e8a2c083d6);
+            
+        
+
+        marker_8a7e90f7ce8c319ee42ab0d4d71e0b0d.bindPopup(popup_ec9401ad410a16299ee5887edb4ca557)
+        ;
+
+        
+    
+    
+            var marker_a9615d002621489eea6271c8f9e23bc3 = L.marker(
+                [39.743046, -104.989877],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_0f73b80be094c130b384d014d2430410 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bfc4269e8b61765f03976bd6512d7c25 = $(`<div id="html_bfc4269e8b61765f03976bd6512d7c25" style="width: 100.0%; height: 100.0%;">Tremont Pl & 16th Street Mall</div>`)[0];
+                popup_0f73b80be094c130b384d014d2430410.setContent(html_bfc4269e8b61765f03976bd6512d7c25);
+            
+        
+
+        marker_a9615d002621489eea6271c8f9e23bc3.bindPopup(popup_0f73b80be094c130b384d014d2430410)
+        ;
+
+        
+    
+    
+            var marker_ee446520bc7002b0da87eff3a61f2b68 = L.marker(
+                [39.725061, -104.974129],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_f4f09c229cb8dcc2a2bccf98e4a85f53 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53d3e0d8ebb85e38fadc655d82d37ce8 = $(`<div id="html_53d3e0d8ebb85e38fadc655d82d37ce8" style="width: 100.0%; height: 100.0%;">Corona St & 6th Ave</div>`)[0];
+                popup_f4f09c229cb8dcc2a2bccf98e4a85f53.setContent(html_53d3e0d8ebb85e38fadc655d82d37ce8);
+            
+        
+
+        marker_ee446520bc7002b0da87eff3a61f2b68.bindPopup(popup_f4f09c229cb8dcc2a2bccf98e4a85f53)
+        ;
+
+        
+    
+    
+            var marker_e49371be28c650f7f72bab26d5086775 = L.marker(
+                [39.743494, -104.973355],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_7be68ccff4ec2a06b9fb5724eccf289b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8384c05c023bc9777155d53b90fb8179 = $(`<div id="html_8384c05c023bc9777155d53b90fb8179" style="width: 100.0%; height: 100.0%;">Downing St & Park Ave</div>`)[0];
+                popup_7be68ccff4ec2a06b9fb5724eccf289b.setContent(html_8384c05c023bc9777155d53b90fb8179);
+            
+        
+
+        marker_e49371be28c650f7f72bab26d5086775.bindPopup(popup_7be68ccff4ec2a06b9fb5724eccf289b)
+        ;
+
+        
+    
+    
+            var marker_b6f3415726a7ebb46e0c89ac7ea1efc2 = L.marker(
+                [39.735093, -104.97837],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_08d7b9acea13e3b4900aca46574b2394 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c95a5b03326a49a29d9a0f26531614ec = $(`<div id="html_c95a5b03326a49a29d9a0f26531614ec" style="width: 100.0%; height: 100.0%;">12th Ave & Washington St</div>`)[0];
+                popup_08d7b9acea13e3b4900aca46574b2394.setContent(html_c95a5b03326a49a29d9a0f26531614ec);
+            
+        
+
+        marker_b6f3415726a7ebb46e0c89ac7ea1efc2.bindPopup(popup_08d7b9acea13e3b4900aca46574b2394)
+        ;
+
+        
+    
+    
+            var marker_0404d94521f465755e28c4fe03063fd6 = L.marker(
+                [39.743153, -104.963147],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_bef4b1deb5c6a75809a7716401df6904 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c9b6c9c9e4944316b6ac51b038069d2 = $(`<div id="html_3c9b6c9c9e4944316b6ac51b038069d2" style="width: 100.0%; height: 100.0%;">17th Ave & Race St</div>`)[0];
+                popup_bef4b1deb5c6a75809a7716401df6904.setContent(html_3c9b6c9c9e4944316b6ac51b038069d2);
+            
+        
+
+        marker_0404d94521f465755e28c4fe03063fd6.bindPopup(popup_bef4b1deb5c6a75809a7716401df6904)
+        ;
+
+        
+    
+    
+            var marker_7cd3945de49f754b0a24de077fe1fbdf = L.marker(
+                [39.748163, -104.986671],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_5e74e0bda5b4d30baa0ed2ea3b29c808 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d84cd602e108f064816efa3c98e36cc2 = $(`<div id="html_d84cd602e108f064816efa3c98e36cc2" style="width: 100.0%; height: 100.0%;">20th St / Welton Station</div>`)[0];
+                popup_5e74e0bda5b4d30baa0ed2ea3b29c808.setContent(html_d84cd602e108f064816efa3c98e36cc2);
+            
+        
+
+        marker_7cd3945de49f754b0a24de077fe1fbdf.bindPopup(popup_5e74e0bda5b4d30baa0ed2ea3b29c808)
+        ;
+
+        
+    
+    
+            var marker_54fdaec461ce2a6ecc73045adb93217c = L.marker(
+                [39.740986, -104.986849],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_d9c3951957042f9522cafde547dcd126 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cffcc432503645bef30b97d5a329f5c9 = $(`<div id="html_cffcc432503645bef30b97d5a329f5c9" style="width: 100.0%; height: 100.0%;">Civic Center Station</div>`)[0];
+                popup_d9c3951957042f9522cafde547dcd126.setContent(html_cffcc432503645bef30b97d5a329f5c9);
+            
+        
+
+        marker_54fdaec461ce2a6ecc73045adb93217c.bindPopup(popup_d9c3951957042f9522cafde547dcd126)
+        ;
+
+        
+    
+    
+            var marker_ea133a83c7f93d2e05fbac1c37234fad = L.marker(
+                [39.735005, -104.963223],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_0861f81d9b91a9522679e2d6c91b38db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4083296979525573be87a22f4bb6c17 = $(`<div id="html_f4083296979525573be87a22f4bb6c17" style="width: 100.0%; height: 100.0%;">12th Ave & Race St</div>`)[0];
+                popup_0861f81d9b91a9522679e2d6c91b38db.setContent(html_f4083296979525573be87a22f4bb6c17);
+            
+        
+
+        marker_ea133a83c7f93d2e05fbac1c37234fad.bindPopup(popup_0861f81d9b91a9522679e2d6c91b38db)
+        ;
+
+        
+    
+    
+            var marker_580d8ed99481ebd6bfd5331ef36d0768 = L.marker(
+                [39.735331, -104.958555],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_8b804845b1a746f3cc40c3f7dd852a66 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_909e41048a073cda08e1fb1aebc80a82 = $(`<div id="html_909e41048a073cda08e1fb1aebc80a82" style="width: 100.0%; height: 100.0%;">Josephine St & 12th Ave</div>`)[0];
+                popup_8b804845b1a746f3cc40c3f7dd852a66.setContent(html_909e41048a073cda08e1fb1aebc80a82);
+            
+        
+
+        marker_580d8ed99481ebd6bfd5331ef36d0768.bindPopup(popup_8b804845b1a746f3cc40c3f7dd852a66)
+        ;
+
+        
+    
+    
+            var marker_8f19fdd1493859e9c4a052bf6959d368 = L.marker(
+                [39.741569, -104.987065],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_d1ea9384a68e792f6423d450fdd6f542 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d121faac5cb532e6e0431f74b36c2791 = $(`<div id="html_d121faac5cb532e6e0431f74b36c2791" style="width: 100.0%; height: 100.0%;">Civic Center Station (16th Drop-Off)</div>`)[0];
+                popup_d1ea9384a68e792f6423d450fdd6f542.setContent(html_d121faac5cb532e6e0431f74b36c2791);
+            
+        
+
+        marker_8f19fdd1493859e9c4a052bf6959d368.bindPopup(popup_d1ea9384a68e792f6423d450fdd6f542)
+        ;
+
+        
+    
+    
+            var marker_28d1365e808d63adb915d4bb3f803d27 = L.marker(
+                [39.743184, -104.973098],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_3eba8c9ca601bd1313678e03bae071aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c94e433052e81d93f5636d2360fbce61 = $(`<div id="html_c94e433052e81d93f5636d2360fbce61" style="width: 100.0%; height: 100.0%;">17th Ave & Downing St</div>`)[0];
+                popup_3eba8c9ca601bd1313678e03bae071aa.setContent(html_c94e433052e81d93f5636d2360fbce61);
+            
+        
+
+        marker_28d1365e808d63adb915d4bb3f803d27.bindPopup(popup_3eba8c9ca601bd1313678e03bae071aa)
+        ;
+
+        
+    
+    
+            var marker_2cc1facdcdce14290052b3144d3011f3 = L.marker(
+                [39.744942, -104.983854],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_0b2fa0546835ee9432a2c75ef02c485d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6db206466417758ea2966b3d5d2dee5 = $(`<div id="html_c6db206466417758ea2966b3d5d2dee5" style="width: 100.0%; height: 100.0%;">18th Ave & Grant St</div>`)[0];
+                popup_0b2fa0546835ee9432a2c75ef02c485d.setContent(html_c6db206466417758ea2966b3d5d2dee5);
+            
+        
+
+        marker_2cc1facdcdce14290052b3144d3011f3.bindPopup(popup_0b2fa0546835ee9432a2c75ef02c485d)
+        ;
+
+        
+    
+    
+            var marker_d0dd5d4e5b61283f5d8ddf1abbcac8b5 = L.marker(
+                [39.729177, -104.950826],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_5a49c3b17a8fcc483f2a5c350a4c2343 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af9ccdb8b73139937e7a075602c4b585 = $(`<div id="html_af9ccdb8b73139937e7a075602c4b585" style="width: 100.0%; height: 100.0%;">8th Ave & Saint Paul St</div>`)[0];
+                popup_5a49c3b17a8fcc483f2a5c350a4c2343.setContent(html_af9ccdb8b73139937e7a075602c4b585);
+            
+        
+
+        marker_d0dd5d4e5b61283f5d8ddf1abbcac8b5.bindPopup(popup_5a49c3b17a8fcc483f2a5c350a4c2343)
+        ;
+
+        
+    
+    
+            var marker_5e08a0cb00e0d8bf47b42babe39a9f94 = L.marker(
+                [39.733394, -104.974164],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_79720e9e42ec41c16f73c9f3d5187ddc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa5ebc204f5c60a093b16e2d969b53be = $(`<div id="html_fa5ebc204f5c60a093b16e2d969b53be" style="width: 100.0%; height: 100.0%;">Corona St & 11th Ave</div>`)[0];
+                popup_79720e9e42ec41c16f73c9f3d5187ddc.setContent(html_fa5ebc204f5c60a093b16e2d969b53be);
+            
+        
+
+        marker_5e08a0cb00e0d8bf47b42babe39a9f94.bindPopup(popup_79720e9e42ec41c16f73c9f3d5187ddc)
+        ;
+
+        
+    
+    
+            var marker_0f6bc93747886a7faa42eb08f212e397 = L.marker(
+                [39.739595, -104.974203],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_56f9fb01b92be1087c73e0feb6f0f6b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aefdc5dc5958c7badab163d7f37dd3d7 = $(`<div id="html_aefdc5dc5958c7badab163d7f37dd3d7" style="width: 100.0%; height: 100.0%;">Corona St & Colfax Ave</div>`)[0];
+                popup_56f9fb01b92be1087c73e0feb6f0f6b5.setContent(html_aefdc5dc5958c7badab163d7f37dd3d7);
+            
+        
+
+        marker_0f6bc93747886a7faa42eb08f212e397.bindPopup(popup_56f9fb01b92be1087c73e0feb6f0f6b5)
+        ;
+
+        
+    
+    
+            var marker_506b415fb54fbdb246f8f059e5d41bdb = L.marker(
+                [39.735039, -104.983675],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_3b89c3e31e246bd3da93b4aa2707c3d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1fdd22f0f51f67e199d3feedfc4132c = $(`<div id="html_f1fdd22f0f51f67e199d3feedfc4132c" style="width: 100.0%; height: 100.0%;">Grant St & 12th Ave</div>`)[0];
+                popup_3b89c3e31e246bd3da93b4aa2707c3d5.setContent(html_f1fdd22f0f51f67e199d3feedfc4132c);
+            
+        
+
+        marker_506b415fb54fbdb246f8f059e5d41bdb.bindPopup(popup_3b89c3e31e246bd3da93b4aa2707c3d5)
+        ;
+
+        
+    
+    
+            var marker_041241b9ecc8410607dbfc521b970f68 = L.marker(
+                [39.725544, -104.951937],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_a2476a0fbca7d48ae626bc91076f67a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_33a43ec32819ef320cd637e590c49b94 = $(`<div id="html_33a43ec32819ef320cd637e590c49b94" style="width: 100.0%; height: 100.0%;">6th Ave & Milwaukee St</div>`)[0];
+                popup_a2476a0fbca7d48ae626bc91076f67a4.setContent(html_33a43ec32819ef320cd637e590c49b94);
+            
+        
+
+        marker_041241b9ecc8410607dbfc521b970f68.bindPopup(popup_a2476a0fbca7d48ae626bc91076f67a4)
+        ;
+
+        
+    
+    
+            var marker_6bb4becefbbf3e5805da9af3e3eb2e61 = L.marker(
+                [39.736995, -104.958558],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_2d2fc2472de44df45be6ed6f56ee26d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2990d02784446fd5fb93e3dfe129c037 = $(`<div id="html_2990d02784446fd5fb93e3dfe129c037" style="width: 100.0%; height: 100.0%;">Josephine St & 13th Ave</div>`)[0];
+                popup_2d2fc2472de44df45be6ed6f56ee26d7.setContent(html_2990d02784446fd5fb93e3dfe129c037);
+            
+        
+
+        marker_6bb4becefbbf3e5805da9af3e3eb2e61.bindPopup(popup_2d2fc2472de44df45be6ed6f56ee26d7)
+        ;
+
+        
+    
+    
+            var marker_49e7acc0f7000b8e29f82f1a337db55d = L.marker(
+                [39.735086, -104.959123],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_cb8f63c125ff54c223bc1faa7a290023 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6642d5c4855934a4a82bd33bda3a35e = $(`<div id="html_d6642d5c4855934a4a82bd33bda3a35e" style="width: 100.0%; height: 100.0%;">12th Ave & Josephine St</div>`)[0];
+                popup_cb8f63c125ff54c223bc1faa7a290023.setContent(html_d6642d5c4855934a4a82bd33bda3a35e);
+            
+        
+
+        marker_49e7acc0f7000b8e29f82f1a337db55d.bindPopup(popup_cb8f63c125ff54c223bc1faa7a290023)
+        ;
+
+        
+    
+    
+            var marker_4d2aa3ae6cf2aa705c2e4e5568789bfa = L.marker(
+                [39.74491, -104.979029],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_21e03020385cfa92fc7ff9cfd61f36ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35c620f363dd19bbaaea4163ebaaeed9 = $(`<div id="html_35c620f363dd19bbaaea4163ebaaeed9" style="width: 100.0%; height: 100.0%;">18th Ave & Washington St</div>`)[0];
+                popup_21e03020385cfa92fc7ff9cfd61f36ef.setContent(html_35c620f363dd19bbaaea4163ebaaeed9);
+            
+        
+
+        marker_4d2aa3ae6cf2aa705c2e4e5568789bfa.bindPopup(popup_21e03020385cfa92fc7ff9cfd61f36ef)
+        ;
+
+        
+    
+    
+            var marker_7b0cfd1df60519bad052a40b2fc3b206 = L.marker(
+                [39.746372, -104.987503],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_d0ac8f14aff70a953f18266840cd79a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b4f2fc2d2fc57f75987aaf36c7b2f17 = $(`<div id="html_2b4f2fc2d2fc57f75987aaf36c7b2f17" style="width: 100.0%; height: 100.0%;">Broadway & Glenarm Pl</div>`)[0];
+                popup_d0ac8f14aff70a953f18266840cd79a0.setContent(html_2b4f2fc2d2fc57f75987aaf36c7b2f17);
+            
+        
+
+        marker_7b0cfd1df60519bad052a40b2fc3b206.bindPopup(popup_d0ac8f14aff70a953f18266840cd79a0)
+        ;
+
+        
+    
+    
+            var marker_c865c005c0fc0cc8b54ebb910e0c5c2c = L.marker(
+                [39.740044, -104.989681],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_623de03a2aa4746b68db077f46de5886 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_99bcf87e6999adc4578a53b01be661ac = $(`<div id="html_99bcf87e6999adc4578a53b01be661ac" style="width: 100.0%; height: 100.0%;">W Colfax Ave & Bannock St</div>`)[0];
+                popup_623de03a2aa4746b68db077f46de5886.setContent(html_99bcf87e6999adc4578a53b01be661ac);
+            
+        
+
+        marker_c865c005c0fc0cc8b54ebb910e0c5c2c.bindPopup(popup_623de03a2aa4746b68db077f46de5886)
+        ;
+
+        
+    
+    
+            var marker_b3dd0b727c1990cbb0cb7e103bcaebf2 = L.marker(
+                [39.747929, -104.959857],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_1f0d4d7257413aa58e75e8efe9e1d9ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_faefc4a6c0279ac06f613cd868279c9f = $(`<div id="html_faefc4a6c0279ac06f613cd868279c9f" style="width: 100.0%; height: 100.0%;">York St & 21st Ave</div>`)[0];
+                popup_1f0d4d7257413aa58e75e8efe9e1d9ab.setContent(html_faefc4a6c0279ac06f613cd868279c9f);
+            
+        
+
+        marker_b3dd0b727c1990cbb0cb7e103bcaebf2.bindPopup(popup_1f0d4d7257413aa58e75e8efe9e1d9ab)
+        ;
+
+        
+    
+    
+            var marker_6fad010eb5b9b47022f7d995d4aae722 = L.marker(
+                [39.725341, -104.96014],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_0b196ff0e52e0ea3b781b8a1bc47c7d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b84d1361f11f79e27e50b2188c346f2 = $(`<div id="html_5b84d1361f11f79e27e50b2188c346f2" style="width: 100.0%; height: 100.0%;">York St & 6th Ave</div>`)[0];
+                popup_0b196ff0e52e0ea3b781b8a1bc47c7d3.setContent(html_5b84d1361f11f79e27e50b2188c346f2);
+            
+        
+
+        marker_6fad010eb5b9b47022f7d995d4aae722.bindPopup(popup_0b196ff0e52e0ea3b781b8a1bc47c7d3)
+        ;
+
+        
+    
+    
+            var marker_50980d4225566691d5ee05652a1510d2 = L.marker(
+                [39.745157, -104.989886],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_ec6b0c6c7b92cc641631f69dcab4f939 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ccb524ddd0cedd8001e1ce550ff11b58 = $(`<div id="html_ccb524ddd0cedd8001e1ce550ff11b58" style="width: 100.0%; height: 100.0%;">17th St & Welton St [ X Stop ]</div>`)[0];
+                popup_ec6b0c6c7b92cc641631f69dcab4f939.setContent(html_ccb524ddd0cedd8001e1ce550ff11b58);
+            
+        
+
+        marker_50980d4225566691d5ee05652a1510d2.bindPopup(popup_ec6b0c6c7b92cc641631f69dcab4f939)
+        ;
+
+        
+    
+    
+            var marker_e3ed208656f8c1a2e3624efdd4b6898e = L.marker(
+                [39.749717, -104.973306],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_56a1cb4f334c3eb0274e0554b5b2d2d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_328ffc4789e3b2e3a4e874658a33c0d2 = $(`<div id="html_328ffc4789e3b2e3a4e874658a33c0d2" style="width: 100.0%; height: 100.0%;">Downing St & 22nd Ave</div>`)[0];
+                popup_56a1cb4f334c3eb0274e0554b5b2d2d7.setContent(html_328ffc4789e3b2e3a4e874658a33c0d2);
+            
+        
+
+        marker_e3ed208656f8c1a2e3624efdd4b6898e.bindPopup(popup_56a1cb4f334c3eb0274e0554b5b2d2d7)
+        ;
+
+        
+    
+    
+            var marker_bda5578cc2aa1926049142d1e5648f2b = L.marker(
+                [39.734817, -104.959869],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_d0117e9e1be637c13b0b679c2d384114 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_562139f61153eb69d38cd28166dc911e = $(`<div id="html_562139f61153eb69d38cd28166dc911e" style="width: 100.0%; height: 100.0%;">York St & 12th Ave</div>`)[0];
+                popup_d0117e9e1be637c13b0b679c2d384114.setContent(html_562139f61153eb69d38cd28166dc911e);
+            
+        
+
+        marker_bda5578cc2aa1926049142d1e5648f2b.bindPopup(popup_d0117e9e1be637c13b0b679c2d384114)
+        ;
+
+        
+    
+    
+            var marker_15cd2c4f3e3c01adbe9fe04edf77e56c = L.marker(
+                [39.74246, -104.987551],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_c2add46e715de7a69621cfeeff0e6640 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_61249a615414d1fe49304117277a6ba7 = $(`<div id="html_61249a615414d1fe49304117277a6ba7" style="width: 100.0%; height: 100.0%;">Broadway & Cleveland Pl</div>`)[0];
+                popup_c2add46e715de7a69621cfeeff0e6640.setContent(html_61249a615414d1fe49304117277a6ba7);
+            
+        
+
+        marker_15cd2c4f3e3c01adbe9fe04edf77e56c.bindPopup(popup_c2add46e715de7a69621cfeeff0e6640)
+        ;
+
+        
+    
+    
+            var marker_c279d13f407e9c167537a5a621818ff4 = L.marker(
+                [39.7449, -104.976504],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_c13c9e2d7783b97ba064f8abf12f1979 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_969cf3f5ac4d2ae8b98fbe11926e7391 = $(`<div id="html_969cf3f5ac4d2ae8b98fbe11926e7391" style="width: 100.0%; height: 100.0%;">18th Ave & Emerson St</div>`)[0];
+                popup_c13c9e2d7783b97ba064f8abf12f1979.setContent(html_969cf3f5ac4d2ae8b98fbe11926e7391);
+            
+        
+
+        marker_c279d13f407e9c167537a5a621818ff4.bindPopup(popup_c13c9e2d7783b97ba064f8abf12f1979)
+        ;
+
+        
+    
+    
+            var marker_f9b33cca242d9e2850c87b9fe4dbc166 = L.marker(
+                [39.729734, -104.987564],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_7590bb26761c4c3922bdeffb5c464988 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fef4caade2df132bf83d7c8ffabddf14 = $(`<div id="html_fef4caade2df132bf83d7c8ffabddf14" style="width: 100.0%; height: 100.0%;">Broadway & W 9th Ave</div>`)[0];
+                popup_7590bb26761c4c3922bdeffb5c464988.setContent(html_fef4caade2df132bf83d7c8ffabddf14);
+            
+        
+
+        marker_f9b33cca242d9e2850c87b9fe4dbc166.bindPopup(popup_7590bb26761c4c3922bdeffb5c464988)
+        ;
+
+        
+    
+    
+            var marker_cf1eb54b9cccaebdd03b23ca7a9ea395 = L.marker(
+                [39.725399, -104.9585],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_0b364160ace4978cf220eb3f9c5ab423 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22afed211350f6cb5d7d308b7ecfe2de = $(`<div id="html_22afed211350f6cb5d7d308b7ecfe2de" style="width: 100.0%; height: 100.0%;">Josephine St & 6th Ave</div>`)[0];
+                popup_0b364160ace4978cf220eb3f9c5ab423.setContent(html_22afed211350f6cb5d7d308b7ecfe2de);
+            
+        
+
+        marker_cf1eb54b9cccaebdd03b23ca7a9ea395.bindPopup(popup_0b364160ace4978cf220eb3f9c5ab423)
+        ;
+
+        
+    
+    
+            var marker_20c0acc4450a0cd983769535596d3acd = L.marker(
+                [39.735102, -104.980599],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_3258ea26a17f16d6c8ac635773d8a193 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16e59e05266c17bbc5c20a6265df18bd = $(`<div id="html_16e59e05266c17bbc5c20a6265df18bd" style="width: 100.0%; height: 100.0%;">12th Ave & Pennsylvania St</div>`)[0];
+                popup_3258ea26a17f16d6c8ac635773d8a193.setContent(html_16e59e05266c17bbc5c20a6265df18bd);
+            
+        
+
+        marker_20c0acc4450a0cd983769535596d3acd.bindPopup(popup_3258ea26a17f16d6c8ac635773d8a193)
+        ;
+
+        
+    
+    
+            var marker_12f146354399a08d681daf5af39296a4 = L.marker(
+                [39.734996, -104.95948],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_735f3f497610595a6905256170c36f36 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a79768eaab0df8c19b8632b98e7c72cb = $(`<div id="html_a79768eaab0df8c19b8632b98e7c72cb" style="width: 100.0%; height: 100.0%;">12th Ave & York St</div>`)[0];
+                popup_735f3f497610595a6905256170c36f36.setContent(html_a79768eaab0df8c19b8632b98e7c72cb);
+            
+        
+
+        marker_12f146354399a08d681daf5af39296a4.bindPopup(popup_735f3f497610595a6905256170c36f36)
+        ;
+
+        
+    
+    
+            var marker_e1e8535d1dc90ac65cb00a3912df5a74 = L.marker(
+                [39.743162, -104.965699],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_590766f465ac4c3b6f569f859c942059 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4b899cff6572718ef95dc136f309bc6 = $(`<div id="html_a4b899cff6572718ef95dc136f309bc6" style="width: 100.0%; height: 100.0%;">17th Ave & Williams St</div>`)[0];
+                popup_590766f465ac4c3b6f569f859c942059.setContent(html_a4b899cff6572718ef95dc136f309bc6);
+            
+        
+
+        marker_e1e8535d1dc90ac65cb00a3912df5a74.bindPopup(popup_590766f465ac4c3b6f569f859c942059)
+        ;
+
+        
+    
+    
+            var marker_fd6f4c135f556c4bf56b808e761278b0 = L.marker(
+                [39.749565, -104.975577],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_1ad2602437c00619994eeacae6c6130d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8736a1d39522f577db0a60d3510c564 = $(`<div id="html_f8736a1d39522f577db0a60d3510c564" style="width: 100.0%; height: 100.0%;">22nd Ave & Emerson St</div>`)[0];
+                popup_1ad2602437c00619994eeacae6c6130d.setContent(html_f8736a1d39522f577db0a60d3510c564);
+            
+        
+
+        marker_fd6f4c135f556c4bf56b808e761278b0.bindPopup(popup_1ad2602437c00619994eeacae6c6130d)
+        ;
+
+        
+    
+    
+            var marker_6b80d16f85b52ba5c3a1190a879808d8 = L.marker(
+                [39.725517, -104.97381],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_cabfd7eb0b4a0eddacb9c384fcaa08e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_366f4dc4f3458ac3b57c181037b1b624 = $(`<div id="html_366f4dc4f3458ac3b57c181037b1b624" style="width: 100.0%; height: 100.0%;">6th Ave & Corona St</div>`)[0];
+                popup_cabfd7eb0b4a0eddacb9c384fcaa08e2.setContent(html_366f4dc4f3458ac3b57c181037b1b624);
+            
+        
+
+        marker_6b80d16f85b52ba5c3a1190a879808d8.bindPopup(popup_cabfd7eb0b4a0eddacb9c384fcaa08e2)
+        ;
+
+        
+    
+    
+            var marker_3743e5b6bb3eb92e6c39954b61fddb47 = L.marker(
+                [39.743639, -104.974839],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_233f5c0ccf5fa612bc895da6910eda8a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45ed2ef879f6f3806d39d7136d50f883 = $(`<div id="html_45ed2ef879f6f3806d39d7136d50f883" style="width: 100.0%; height: 100.0%;">Ogden St & 17th Ave</div>`)[0];
+                popup_233f5c0ccf5fa612bc895da6910eda8a.setContent(html_45ed2ef879f6f3806d39d7136d50f883);
+            
+        
+
+        marker_3743e5b6bb3eb92e6c39954b61fddb47.bindPopup(popup_233f5c0ccf5fa612bc895da6910eda8a)
+        ;
+
+        
+    
+    
+            var marker_535ba03ad3655cb908e208e1928a2e7a = L.marker(
+                [39.720755, -104.978445],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_9d05d928f67e198590253f9fcbd43d66 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f65fc788761411f5581ad18f9d8e7b81 = $(`<div id="html_f65fc788761411f5581ad18f9d8e7b81" style="width: 100.0%; height: 100.0%;">Speer Blvd & Washington St</div>`)[0];
+                popup_9d05d928f67e198590253f9fcbd43d66.setContent(html_f65fc788761411f5581ad18f9d8e7b81);
+            
+        
+
+        marker_535ba03ad3655cb908e208e1928a2e7a.bindPopup(popup_9d05d928f67e198590253f9fcbd43d66)
+        ;
+
+        
+    
+    
+            var marker_0510f906a9274ab88c8b3f22d51b6802 = L.marker(
+                [39.746271, -104.983295],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_c542dd2c961d79cc9df5d63c14ae3436 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e43b7696c9885bc1bd1eaf80fdc353e6 = $(`<div id="html_e43b7696c9885bc1bd1eaf80fdc353e6" style="width: 100.0%; height: 100.0%;">19th Ave & Grant St</div>`)[0];
+                popup_c542dd2c961d79cc9df5d63c14ae3436.setContent(html_e43b7696c9885bc1bd1eaf80fdc353e6);
+            
+        
+
+        marker_0510f906a9274ab88c8b3f22d51b6802.bindPopup(popup_c542dd2c961d79cc9df5d63c14ae3436)
+        ;
+
+        
+    
+    
+            var marker_b6bebdfafe8531c556a3c52cfb6ca4ea = L.marker(
+                [39.739978, -104.978515],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_0d294b5a823efd12d2768d96d087b25a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f15fb373923aeb1bfeb32b614140ed83 = $(`<div id="html_f15fb373923aeb1bfeb32b614140ed83" style="width: 100.0%; height: 100.0%;">Colfax Ave & Washington St</div>`)[0];
+                popup_0d294b5a823efd12d2768d96d087b25a.setContent(html_f15fb373923aeb1bfeb32b614140ed83);
+            
+        
+
+        marker_b6bebdfafe8531c556a3c52cfb6ca4ea.bindPopup(popup_0d294b5a823efd12d2768d96d087b25a)
+        ;
+
+        
+    
+    
+            var marker_d1ccee90672e85e4d3c0a2a09697cc70 = L.marker(
+                [39.744875, -104.968741],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_598bf6533f0a25460c18e62d3f431391 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4051b1b28eddbc53803486371a8cc88 = $(`<div id="html_c4051b1b28eddbc53803486371a8cc88" style="width: 100.0%; height: 100.0%;">18th Ave & Franklin St</div>`)[0];
+                popup_598bf6533f0a25460c18e62d3f431391.setContent(html_c4051b1b28eddbc53803486371a8cc88);
+            
+        
+
+        marker_d1ccee90672e85e4d3c0a2a09697cc70.bindPopup(popup_598bf6533f0a25460c18e62d3f431391)
+        ;
+
+        
+    
+    
+            var marker_e8fb546bdd77dc9c8daf613d7912ca53 = L.marker(
+                [39.725566, -104.980921],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_67f8dd42b9d41ed00ce0d75d1e9a08a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff0db0e584acd5db7aba318660df7451 = $(`<div id="html_ff0db0e584acd5db7aba318660df7451" style="width: 100.0%; height: 100.0%;">6th Ave & Pennsylvania St</div>`)[0];
+                popup_67f8dd42b9d41ed00ce0d75d1e9a08a6.setContent(html_ff0db0e584acd5db7aba318660df7451);
+            
+        
+
+        marker_e8fb546bdd77dc9c8daf613d7912ca53.bindPopup(popup_67f8dd42b9d41ed00ce0d75d1e9a08a6)
+        ;
+
+        
+    
+    
+            var marker_8cf4b7bce378d842a6e9f068531b9c95 = L.marker(
+                [39.74007, -104.965188],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_afc041fa2dd7063453fa5e3c187f6228 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c61ee700fb1bfdeb15b7b27215fcaf8 = $(`<div id="html_3c61ee700fb1bfdeb15b7b27215fcaf8" style="width: 100.0%; height: 100.0%;">Colfax Ave & High St</div>`)[0];
+                popup_afc041fa2dd7063453fa5e3c187f6228.setContent(html_3c61ee700fb1bfdeb15b7b27215fcaf8);
+            
+        
+
+        marker_8cf4b7bce378d842a6e9f068531b9c95.bindPopup(popup_afc041fa2dd7063453fa5e3c187f6228)
+        ;
+
+        
+    
+    
+            var marker_bf211ea6f3761ede15244d32b4b526f3 = L.marker(
+                [39.748307, -104.989777],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_7b5ced56e1645c5e49c47e279e3c1ad3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32155bf9c32fbc4ae18b728ee1b055b4 = $(`<div id="html_32155bf9c32fbc4ae18b728ee1b055b4" style="width: 100.0%; height: 100.0%;">Stout St & 18th St</div>`)[0];
+                popup_7b5ced56e1645c5e49c47e279e3c1ad3.setContent(html_32155bf9c32fbc4ae18b728ee1b055b4);
+            
+        
+
+        marker_bf211ea6f3761ede15244d32b4b526f3.bindPopup(popup_7b5ced56e1645c5e49c47e279e3c1ad3)
+        ;
+
+        
+    
+    
+            var marker_bf929e54b7b035962541d37a5bfeeedd = L.marker(
+                [39.736373, -104.987538],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_beccc853436ee2ff1c88b4057d391f41 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e5b3950e6bd4a1ac20d251217acfb9a = $(`<div id="html_2e5b3950e6bd4a1ac20d251217acfb9a" style="width: 100.0%; height: 100.0%;">Broadway & W 13th Ave</div>`)[0];
+                popup_beccc853436ee2ff1c88b4057d391f41.setContent(html_2e5b3950e6bd4a1ac20d251217acfb9a);
+            
+        
+
+        marker_bf929e54b7b035962541d37a5bfeeedd.bindPopup(popup_beccc853436ee2ff1c88b4057d391f41)
+        ;
+
+        
+    
+    
+            var marker_a2858196d399d454f0aa7758e2959de0 = L.marker(
+                [39.733914, -104.972928],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_7e8ab4962c77a1e27ae9ce1b1a03bc53 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9c058c752f2742abaa64b116533d1d1 = $(`<div id="html_b9c058c752f2742abaa64b116533d1d1" style="width: 100.0%; height: 100.0%;">Downing St & 11th Ave</div>`)[0];
+                popup_7e8ab4962c77a1e27ae9ce1b1a03bc53.setContent(html_b9c058c752f2742abaa64b116533d1d1);
+            
+        
+
+        marker_a2858196d399d454f0aa7758e2959de0.bindPopup(popup_7e8ab4962c77a1e27ae9ce1b1a03bc53)
+        ;
+
+        
+    
+    
+            var marker_11511904820f0e4cc6e39ceee90bb3dc = L.marker(
+                [39.740388, -104.973354],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_3e0f898cc0e9ef2a0cf417d5d97c7452 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_adfc80f8f6bb6993fa5b020bc522687e = $(`<div id="html_adfc80f8f6bb6993fa5b020bc522687e" style="width: 100.0%; height: 100.0%;">Downing St & Colfax Ave</div>`)[0];
+                popup_3e0f898cc0e9ef2a0cf417d5d97c7452.setContent(html_adfc80f8f6bb6993fa5b020bc522687e);
+            
+        
+
+        marker_11511904820f0e4cc6e39ceee90bb3dc.bindPopup(popup_3e0f898cc0e9ef2a0cf417d5d97c7452)
+        ;
+
+        
+    
+    
+            var marker_2666007f128008baca8a77c97f5ae372 = L.marker(
+                [39.748248, -104.97808],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_2c9cda9965bc6268b9ada0452c76e17b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d758cd6ea4f93e7d130fd0358b0594e6 = $(`<div id="html_d758cd6ea4f93e7d130fd0358b0594e6" style="width: 100.0%; height: 100.0%;">Washington St & 20th Ave</div>`)[0];
+                popup_2c9cda9965bc6268b9ada0452c76e17b.setContent(html_d758cd6ea4f93e7d130fd0358b0594e6);
+            
+        
+
+        marker_2666007f128008baca8a77c97f5ae372.bindPopup(popup_2c9cda9965bc6268b9ada0452c76e17b)
+        ;
+
+        
+    
+    
+            var marker_3995635b5ed778a6e8f150d31536e949 = L.marker(
+                [39.745596, -104.987734],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_5e01856930c1f93b9f205ea153d3b7db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd6faedfe2ce97c04a44bb452fcacf01 = $(`<div id="html_bd6faedfe2ce97c04a44bb452fcacf01" style="width: 100.0%; height: 100.0%;">18th St & Glenarm Pl</div>`)[0];
+                popup_5e01856930c1f93b9f205ea153d3b7db.setContent(html_bd6faedfe2ce97c04a44bb452fcacf01);
+            
+        
+
+        marker_3995635b5ed778a6e8f150d31536e949.bindPopup(popup_5e01856930c1f93b9f205ea153d3b7db)
+        ;
+
+        
+    
+    
+            var marker_2088fd0c6a3ccb00c2c7c5248e5799c8 = L.marker(
+                [39.746263, -104.980467],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_a1f6afe69328292a149f9ce4cd053aba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_437cb9ccd527a206aa179885fed366da = $(`<div id="html_437cb9ccd527a206aa179885fed366da" style="width: 100.0%; height: 100.0%;">19th Ave & Pearl St</div>`)[0];
+                popup_a1f6afe69328292a149f9ce4cd053aba.setContent(html_437cb9ccd527a206aa179885fed366da);
+            
+        
+
+        marker_2088fd0c6a3ccb00c2c7c5248e5799c8.bindPopup(popup_a1f6afe69328292a149f9ce4cd053aba)
+        ;
+
+        
+    
+    
+            var marker_88540823200b7cdc9b7ee3223820b8f6 = L.marker(
+                [39.740318, -104.987529],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_50962fe0b5eba6d7b5f74fd50aa4a5de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eacc9ca17bb9c0be625e221f3877be9b = $(`<div id="html_eacc9ca17bb9c0be625e221f3877be9b" style="width: 100.0%; height: 100.0%;">Broadway & W Colfax Ave</div>`)[0];
+                popup_50962fe0b5eba6d7b5f74fd50aa4a5de.setContent(html_eacc9ca17bb9c0be625e221f3877be9b);
+            
+        
+
+        marker_88540823200b7cdc9b7ee3223820b8f6.bindPopup(popup_50962fe0b5eba6d7b5f74fd50aa4a5de)
+        ;
+
+        
+    
+    
+            var marker_edf499414e71052179cfe868b249822b = L.marker(
+                [39.744891, -104.973807],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_a3f3d7b0c6f343f50e0ef450e46c9d4c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d9958f61c13604ed6d842c85d8f7154 = $(`<div id="html_1d9958f61c13604ed6d842c85d8f7154" style="width: 100.0%; height: 100.0%;">18th Ave & Downing St</div>`)[0];
+                popup_a3f3d7b0c6f343f50e0ef450e46c9d4c.setContent(html_1d9958f61c13604ed6d842c85d8f7154);
+            
+        
+
+        marker_edf499414e71052179cfe868b249822b.bindPopup(popup_a3f3d7b0c6f343f50e0ef450e46c9d4c)
+        ;
+
+        
+    
+    
+            var marker_7996bfc84c2acd309eae5fb8a832ef71 = L.marker(
+                [39.729114, -104.97359],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_d1001f9ef93a6ced38edcb2215f8a14d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b8649dd4b5ab1bfa507808ad46fb6cd6 = $(`<div id="html_b8649dd4b5ab1bfa507808ad46fb6cd6" style="width: 100.0%; height: 100.0%;">8th Ave & Downing St</div>`)[0];
+                popup_d1001f9ef93a6ced38edcb2215f8a14d.setContent(html_b8649dd4b5ab1bfa507808ad46fb6cd6);
+            
+        
+
+        marker_7996bfc84c2acd309eae5fb8a832ef71.bindPopup(popup_d1001f9ef93a6ced38edcb2215f8a14d)
+        ;
+
+        
+    
+    
+            var marker_40136e882a8b2c3ab7b95bedf9b34536 = L.marker(
+                [39.722303, -104.986155],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_2454d92d7d74b217c63a41b50de44e10 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_683c08a4f5d371f978c22a166ca83dbe = $(`<div id="html_683c08a4f5d371f978c22a166ca83dbe" style="width: 100.0%; height: 100.0%;">Lincoln St & 4th Ave</div>`)[0];
+                popup_2454d92d7d74b217c63a41b50de44e10.setContent(html_683c08a4f5d371f978c22a166ca83dbe);
+            
+        
+
+        marker_40136e882a8b2c3ab7b95bedf9b34536.bindPopup(popup_2454d92d7d74b217c63a41b50de44e10)
+        ;
+
+        
+    
+    
+            var marker_84a7dc7b12093cddd4c411f5939837b8 = L.marker(
+                [39.740185, -104.987113],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_855f03891f2def546de264bce1f14035 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84d190ee1701889245994376256758ce = $(`<div id="html_84d190ee1701889245994376256758ce" style="width: 100.0%; height: 100.0%;">Colfax Ave & Broadway</div>`)[0];
+                popup_855f03891f2def546de264bce1f14035.setContent(html_84d190ee1701889245994376256758ce);
+            
+        
+
+        marker_84a7dc7b12093cddd4c411f5939837b8.bindPopup(popup_855f03891f2def546de264bce1f14035)
+        ;
+
+        
+    
+    
+            var marker_9016411154766be4fd31c5937aae4224 = L.marker(
+                [39.725548, -104.958387],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_c871b3ff3d0b6071fd9e1fe9b76012b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20810aa5d4cc1900fe4f0df47e91710a = $(`<div id="html_20810aa5d4cc1900fe4f0df47e91710a" style="width: 100.0%; height: 100.0%;">6th Ave & Josephine St</div>`)[0];
+                popup_c871b3ff3d0b6071fd9e1fe9b76012b3.setContent(html_20810aa5d4cc1900fe4f0df47e91710a);
+            
+        
+
+        marker_9016411154766be4fd31c5937aae4224.bindPopup(popup_c871b3ff3d0b6071fd9e1fe9b76012b3)
+        ;
+
+        
+    
+    
+            var marker_90898f95780a834c0c9b2e041b59c399 = L.marker(
+                [39.743755, -104.959257],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_5ab4578eb1bd90bc15e384f20ddacad0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_baceaaaa7dd5c68d01101a31442ec89a = $(`<div id="html_baceaaaa7dd5c68d01101a31442ec89a" style="width: 100.0%; height: 100.0%;">Josephine St & 17th Ave</div>`)[0];
+                popup_5ab4578eb1bd90bc15e384f20ddacad0.setContent(html_baceaaaa7dd5c68d01101a31442ec89a);
+            
+        
+
+        marker_90898f95780a834c0c9b2e041b59c399.bindPopup(popup_5ab4578eb1bd90bc15e384f20ddacad0)
+        ;
+
+        
+    
+    
+            var marker_2a190e5c8123d951d5474d03be8ff8da = L.marker(
+                [39.720567, -104.987636],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_ddaa1c90955001ec72f8231d1cf3e92e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c676b45d416e0877b80b98f9a91d02c9 = $(`<div id="html_c676b45d416e0877b80b98f9a91d02c9" style="width: 100.0%; height: 100.0%;">Broadway & W 3rd Ave</div>`)[0];
+                popup_ddaa1c90955001ec72f8231d1cf3e92e.setContent(html_c676b45d416e0877b80b98f9a91d02c9);
+            
+        
+
+        marker_2a190e5c8123d951d5474d03be8ff8da.bindPopup(popup_ddaa1c90955001ec72f8231d1cf3e92e)
+        ;
+
+        
+    
+    
+            var marker_c26cbdd510e5bb118677b06b1baaaa27 = L.marker(
+                [39.739968, -104.963509],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_775f39258783cc87428513942f0ed6bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e181dc3b1d2f8b74227c6fe7993fab86 = $(`<div id="html_e181dc3b1d2f8b74227c6fe7993fab86" style="width: 100.0%; height: 100.0%;">Colfax Ave & Race St</div>`)[0];
+                popup_775f39258783cc87428513942f0ed6bc.setContent(html_e181dc3b1d2f8b74227c6fe7993fab86);
+            
+        
+
+        marker_c26cbdd510e5bb118677b06b1baaaa27.bindPopup(popup_775f39258783cc87428513942f0ed6bc)
+        ;
+
+        
+    
+    
+            var marker_647bb48ede75779f4650b87bef648b8b = L.marker(
+                [39.735186, -104.956081],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_838c9ac34ec55ded9a1180d3bcd20028 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ae1cd4e8943e63470e79da6dbb3c71f = $(`<div id="html_8ae1cd4e8943e63470e79da6dbb3c71f" style="width: 100.0%; height: 100.0%;">12th Ave & Elizabeth St</div>`)[0];
+                popup_838c9ac34ec55ded9a1180d3bcd20028.setContent(html_8ae1cd4e8943e63470e79da6dbb3c71f);
+            
+        
+
+        marker_647bb48ede75779f4650b87bef648b8b.bindPopup(popup_838c9ac34ec55ded9a1180d3bcd20028)
+        ;
+
+        
+    
+    
+            var marker_5ec8b03c5a8362e5b5eee6ccaf402a22 = L.marker(
+                [39.735227, -104.983287],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_262c9f95f8e77b9aba9041d666bb7fd8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0875ba68d1531dd12a46781324ea14c0 = $(`<div id="html_0875ba68d1531dd12a46781324ea14c0" style="width: 100.0%; height: 100.0%;">12th Ave & Grant St</div>`)[0];
+                popup_262c9f95f8e77b9aba9041d666bb7fd8.setContent(html_0875ba68d1531dd12a46781324ea14c0);
+            
+        
+
+        marker_5ec8b03c5a8362e5b5eee6ccaf402a22.bindPopup(popup_262c9f95f8e77b9aba9041d666bb7fd8)
+        ;
+
+        
+    
+    
+            var marker_4442c5d026e88797372419746ccbfac6 = L.marker(
+                [39.720759, -104.958185],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_bdb17158c9b929d388f4932301936603 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f308e221a5299bebc9e0a27228f2580 = $(`<div id="html_4f308e221a5299bebc9e0a27228f2580" style="width: 100.0%; height: 100.0%;">Josephine St & 3rd Ave</div>`)[0];
+                popup_bdb17158c9b929d388f4932301936603.setContent(html_4f308e221a5299bebc9e0a27228f2580);
+            
+        
+
+        marker_4442c5d026e88797372419746ccbfac6.bindPopup(popup_bdb17158c9b929d388f4932301936603)
+        ;
+
+        
+    
+    
+            var marker_2b45187449b451753955aa341bf8026d = L.marker(
+                [39.744464, -104.989005],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_acd947a85d451d3333b8d6b4555d4a71 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0b8ef88223b1873745258efa8d8646e = $(`<div id="html_d0b8ef88223b1873745258efa8d8646e" style="width: 100.0%; height: 100.0%;">17th St & Glenarm [ Y Stop ]</div>`)[0];
+                popup_acd947a85d451d3333b8d6b4555d4a71.setContent(html_d0b8ef88223b1873745258efa8d8646e);
+            
+        
+
+        marker_2b45187449b451753955aa341bf8026d.bindPopup(popup_acd947a85d451d3333b8d6b4555d4a71)
+        ;
+
+        
+    
+    
+            var marker_8b9798f32d0a774291a1feba15c19340 = L.marker(
+                [39.749563, -104.97364],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_a5cf1ae6cf35cae8db28959bc04b5f91 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e51edc062afe120e8c18acd3793ea606 = $(`<div id="html_e51edc062afe120e8c18acd3793ea606" style="width: 100.0%; height: 100.0%;">22nd Ave & Downing St</div>`)[0];
+                popup_a5cf1ae6cf35cae8db28959bc04b5f91.setContent(html_e51edc062afe120e8c18acd3793ea606);
+            
+        
+
+        marker_8b9798f32d0a774291a1feba15c19340.bindPopup(popup_a5cf1ae6cf35cae8db28959bc04b5f91)
+        ;
+
+        
+    
+    
+            var marker_ed9c8ad15066cae0ca259fdc1d1b9494 = L.marker(
+                [39.743228, -104.987267],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_abe5db75a45798782890cd685a6b1689 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d2b3de10ce85435de0e139860eb7ce8 = $(`<div id="html_2d2b3de10ce85435de0e139860eb7ce8" style="width: 100.0%; height: 100.0%;">17th Ave & Broadway</div>`)[0];
+                popup_abe5db75a45798782890cd685a6b1689.setContent(html_2d2b3de10ce85435de0e139860eb7ce8);
+            
+        
+
+        marker_ed9c8ad15066cae0ca259fdc1d1b9494.bindPopup(popup_abe5db75a45798782890cd685a6b1689)
+        ;
+
+        
+    
+    
+            var marker_286581032477e51f94e91691520b8b17 = L.marker(
+                [39.747326, -104.977903],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_c46044007e6a662472840d2d284091ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3172aafe542191c29c07119f0b994b18 = $(`<div id="html_3172aafe542191c29c07119f0b994b18" style="width: 100.0%; height: 100.0%;">Park Ave West & Clarkson St</div>`)[0];
+                popup_c46044007e6a662472840d2d284091ae.setContent(html_3172aafe542191c29c07119f0b994b18);
+            
+        
+
+        marker_286581032477e51f94e91691520b8b17.bindPopup(popup_c46044007e6a662472840d2d284091ae)
+        ;
+
+        
+    
+    
+            var marker_b6d96a326c327e5e5fc46888e91c03f7 = L.marker(
+                [39.73522, -104.968754],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_5ee4a87e24f7fe0113171daa2ecf07cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40a1543e515ded0be4eebffc841eebe1 = $(`<div id="html_40a1543e515ded0be4eebffc841eebe1" style="width: 100.0%; height: 100.0%;">12th Ave & Humboldt St</div>`)[0];
+                popup_5ee4a87e24f7fe0113171daa2ecf07cb.setContent(html_40a1543e515ded0be4eebffc841eebe1);
+            
+        
+
+        marker_b6d96a326c327e5e5fc46888e91c03f7.bindPopup(popup_5ee4a87e24f7fe0113171daa2ecf07cb)
+        ;
+
+        
+    
+    
+            var marker_6990e04d6788dae20e0f92916154ddee = L.marker(
+                [39.736106, -104.966278],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_f5339d972706b7db438859711aa991ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac7b90f5c5bff0b29db1f80dd43849c1 = $(`<div id="html_ac7b90f5c5bff0b29db1f80dd43849c1" style="width: 100.0%; height: 100.0%;">12th Ave & Gilpin St</div>`)[0];
+                popup_f5339d972706b7db438859711aa991ea.setContent(html_ac7b90f5c5bff0b29db1f80dd43849c1);
+            
+        
+
+        marker_6990e04d6788dae20e0f92916154ddee.bindPopup(popup_f5339d972706b7db438859711aa991ea)
+        ;
+
+        
+    
+    
+            var marker_b9baf46b75e0bd4f4bde768314b4e1d6 = L.marker(
+                [39.723921, -104.987648],
+                {
+}
+            ).addTo(marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd);
+        
+    
+        var popup_0fc5f9e68b1614fef1738fb4d278a38f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_968ba113483b35eb227d11f5ea8c50a6 = $(`<div id="html_968ba113483b35eb227d11f5ea8c50a6" style="width: 100.0%; height: 100.0%;">Broadway & W 5th Ave</div>`)[0];
+                popup_0fc5f9e68b1614fef1738fb4d278a38f.setContent(html_968ba113483b35eb227d11f5ea8c50a6);
+            
+        
+
+        marker_b9baf46b75e0bd4f4bde768314b4e1d6.bindPopup(popup_0fc5f9e68b1614fef1738fb4d278a38f)
+        ;
+
+        
+    
+    
+            marker_cluster_d0a7e5490662e7db8cff9b1e0da3ecbd.addTo(map_3df9f7a18cd05804433623545f2c448a);
+        
+</script>
+</html>
